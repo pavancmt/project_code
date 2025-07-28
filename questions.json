@@ -1,0 +1,1632 @@
+{
+  "html": [
+      {
+        "question": "Which HTML tag defines the main content of a page?",
+        "options": ["<div>", "<main>", "<section>", "<body>"],
+        "answer": "<main>",
+        "level": 1,
+        "hint": "This tag is semantic and represents the primary content of the document."
+      },
+      {
+        "question": "Which tag is not semantic in HTML5?",
+        "options": ["<article>", "<nav>", "<footer>", "<div>"],
+        "answer": "<div>",
+        "level": 1,
+        "hint": "Semantic tags provide meaning to content, unlike generic containers."
+      },
+      {
+        "question": "What does the <meta> tag provide?",
+        "options": ["Metadata", "Script", "Image", "Table"],
+        "answer": "Metadata",
+        "level": 2,
+        "hint": "This tag provides information like character set or SEO details."
+      },
+      {
+        "question": "Which tag is used for internal CSS?",
+        "options": ["<css>", "<style>", "<script>", "<head>"],
+        "answer": "<style>",
+        "level": 2,
+        "hint": "This tag holds CSS rules within the HTML document."
+      },
+      {
+        "question": "Which attribute opens a link in a new tab?",
+        "options": ["newtab", "target=\"new\"", "target=\"_blank\"", "href-tab"],
+        "answer": "target=\"_blank\"",
+        "level": 3,
+        "hint": "This attribute uses the 'target' property with a specific value for new tabs."
+      },
+      {
+        "question": "Which tag creates a line break?",
+        "options": ["<br>", "<lb>", "<break>", "<newline>"],
+        "answer": "<br>",
+        "level": 1,
+        "hint": "This self-closing tag adds a single line break in text."
+      },
+      {
+        "question": "What is the correct HTML tag for a paragraph?",
+        "options": ["<p>", "<para>", "<text>", "<paragraph>"],
+        "answer": "<p>",
+        "level": 1,
+        "hint": "This tag is a single letter followed by angle brackets."
+      },
+      {
+        "question": "Which tag defines a table row?",
+        "options": ["<tr>", "<td>", "<th>", "<table>"],
+        "answer": "<tr>",
+        "level": 1,
+        "hint": "This tag groups cells in a horizontal line within a table."
+      },
+      {
+        "question": "What does the <title> tag do?",
+        "options": ["Sets page title", "Styles text", "Links CSS", "Adds image"],
+        "answer": "Sets page title",
+        "level": 1,
+        "hint": "This tag sets the text shown in the browser's title bar."
+      },
+      {
+        "question": "Which tag is used for an unordered list?",
+        "options": ["<ol>", "<ul>", "<li>", "<list>"],
+        "answer": "<ul>",
+        "level": 1,
+        "hint": "This tag creates a list with bullet points."
+      },
+      {
+        "question": "What is the root element of an HTML page?",
+        "options": ["<body>", "<html>", "<head>", "<root>"],
+        "answer": "<html>",
+        "level": 1,
+        "hint": "This tag wraps all other tags in an HTML document."
+      },
+      {
+        "question": "Which tag embeds an image?",
+        "options": ["<img>", "<picture>", "<image>", "<src>"],
+        "answer": "<img>",
+        "level": 1,
+        "hint": "This self-closing tag uses a 'src' attribute for images."
+      },
+      {
+        "question": "What does the <a> tag create?",
+        "options": ["Anchor link", "Image", "Button", "Form"],
+        "answer": "Anchor link",
+        "level": 1,
+        "hint": "This tag creates a clickable link with an 'href' attribute."
+      },
+      {
+        "question": "Which attribute specifies an image source?",
+        "options": ["href", "src", "alt", "link"],
+        "answer": "src",
+        "level": 1,
+        "hint": "This attribute points to the file path of an image."
+      },
+      {
+        "question": "Which tag defines a form?",
+        "options": ["<form>", "<input>", "<button>", "<field>"],
+        "answer": "<form>",
+        "level": 1,
+        "hint": "This tag wraps input fields for user data submission."
+      },
+      {
+        "question": "Which attribute provides alternate text for images?",
+        "options": ["alt", "title", "src", "desc"],
+        "answer": "alt",
+        "level": 2,
+        "hint": "This attribute improves accessibility for screen readers."
+      },
+      {
+        "question": "What is the default method for a form?",
+        "options": ["POST", "GET", "SEND", "SUBMIT"],
+        "answer": "GET",
+        "level": 2,
+        "hint": "This HTTP method appends data to the URL."
+      },
+      {
+        "question": "Which tag creates a numbered list?",
+        "options": ["<ul>", "<ol>", "<li>", "<nl>"],
+        "answer": "<ol>",
+        "level": 2,
+        "hint": "This tag creates a list with numbers or letters."
+      },
+      {
+        "question": "Which attribute links to an external CSS file?",
+        "options": ["src", "href", "link", "style"],
+        "answer": "href",
+        "level": 2,
+        "hint": "This attribute is used in a <link> tag for external styles."
+      },
+      {
+        "question": "What does the <header> tag represent?",
+        "options": ["Page footer", "Main content", "Navigation", "Introductory content"],
+        "answer": "Introductory content",
+        "level": 2,
+        "hint": "This semantic tag often contains logos or navigation."
+      },
+      {
+        "question": "Which tag defines a table header cell?",
+        "options": ["<td>", "<th>", "<tr>", "<table>"],
+        "answer": "<th>",
+        "level": 2,
+        "hint": "This tag is like <td> but for bolded header cells."
+      },
+      {
+        "question": "What does the <aside> tag represent?",
+        "options": ["Sidebar content", "Main content", "Footer", "Header"],
+        "answer": "Sidebar content",
+        "level": 2,
+        "hint": "This tag holds content tangentially related to the main content."
+      },
+      {
+        "question": "Which attribute specifies a form’s submission URL?",
+        "options": ["action", "method", "target", "submit"],
+        "answer": "action",
+        "level": 2,
+        "hint": "This attribute defines where form data is sent."
+      },
+      {
+        "question": "Which tag is used for inline CSS?",
+        "options": ["<style>", "<css>", "<inline>", "<span>"],
+        "answer": "<style>",
+        "level": 2,
+        "hint": "This tag can be used in the head or inline with a 'style' attribute."
+      },
+      {
+        "question": "What does the <nav> tag define?",
+        "options": ["Navigation links", "Main content", "Footer", "Header"],
+        "answer": "Navigation links",
+        "level": 2,
+        "hint": "This semantic tag groups menu or navigation links."
+      },
+      {
+        "question": "Which attribute disables an input field?",
+        "options": ["disabled", "readonly", "off", "locked"],
+        "answer": "disabled",
+        "level": 3,
+        "hint": "This attribute prevents user interaction with a form field."
+      },
+      {
+        "question": "What is the purpose of the <figure> tag?",
+        "options": ["Embeds images", "Groups related content", "Styles text", "Creates forms"],
+        "answer": "Groups related content",
+        "level": 3,
+        "hint": "This tag often pairs with <figcaption> for images or diagrams."
+      },
+      {
+        "question": "Which attribute specifies a character encoding?",
+        "options": ["charset", "encoding", "type", "format"],
+        "answer": "charset",
+        "level": 3,
+        "hint": "This attribute is used in a <meta> tag for encoding like UTF-8."
+      },
+      {
+        "question": "What does the <time> tag represent?",
+        "options": ["Date/time", "Timer", "Clock", "Schedule"],
+        "answer": "Date/time",
+        "level": 3,
+        "hint": "This semantic tag formats dates or times for accessibility."
+      },
+      {
+        "question": "Which tag embeds a video?",
+        "options": ["<video>", "<media>", "<movie>", "<clip>"],
+        "answer": "<video>",
+        "level": 3,
+        "hint": "This tag supports attributes like 'src' and 'controls' for videos."
+      },
+      {
+        "question": "Which attribute makes an input required?",
+        "options": ["required", "mandatory", "needed", "essential"],
+        "answer": "required",
+        "level": 3,
+        "hint": "This attribute ensures a form field must be filled before submission."
+      },
+      {
+        "question": "What does the <footer> tag typically contain?",
+        "options": ["Navigation", "Main content", "Contact info", "Header"],
+        "answer": "Contact info",
+        "level": 3,
+        "hint": "This semantic tag often includes copyright or contact details."
+      },
+      {
+        "question": "Which tag creates a dropdown menu?",
+        "options": ["<select>", "<dropdown>", "<menu>", "<option>"],
+        "answer": "<select>",
+        "level": 3,
+        "hint": "This tag works with <option> tags to create a dropdown."
+      },
+      {
+        "question": "Which attribute sets the maximum input length?",
+        "options": ["maxlength", "limit", "size", "max"],
+        "answer": "maxlength",
+        "level": 3,
+        "hint": "This attribute limits the number of characters in a text input."
+      },
+      {
+        "question": "What does the <section> tag define?",
+        "options": ["Thematic grouping", "Footer", "Header", "Navigation"],
+        "answer": "Thematic grouping",
+        "level": 3,
+        "hint": "This tag organizes content into distinct, related sections."
+      },
+      {
+        "question": "Which tag embeds audio?",
+        "options": ["<audio>", "<sound>", "<media>", "<track>"],
+        "answer": "<audio>",
+        "level": 3,
+        "hint": "This tag supports attributes like 'src' for sound files."
+      },
+      {
+        "question": "Which tag defines a list item?",
+        "options": ["<li>", "<ul>", "<ol>", "<item>"],
+        "answer": "<li>",
+        "level": 1,
+        "hint": "This tag is used inside <ul> or <ol> for individual items."
+      },
+      {
+        "question": "What does the <hr> tag create?",
+        "options": ["Horizontal rule", "Header", "Row", "Break"],
+        "answer": "Horizontal rule",
+        "level": 1,
+        "hint": "This self-closing tag adds a thematic break or line."
+      },
+      {
+        "question": "Which tag is used for bold text?",
+        "options": ["<bold>", "<b>", "<strong>", "<Both b and strong>"],
+        "answer": "<Both b and strong>",
+        "level": 1,
+        "hint": "These tags make text bold, but one is semantic."
+      },
+      {
+        "question": "Which tag creates a hyperlink?",
+        "options": ["<link>", "<a>", "<href>", "<url>"],
+        "answer": "<a>",
+        "level": 1,
+        "hint": "This tag uses 'href' to link to another page or resource."
+      },
+      {
+        "question": "What does the <head> tag contain?",
+        "options": ["Metadata", "Main content", "Footer", "Navigation"],
+        "answer": "Metadata",
+        "level": 1,
+        "hint": "This tag holds information like <title> and <meta> tags."
+      },
+      {
+        "question": "Which tag defines a table?",
+        "options": ["<table>", "<tab>", "<tr>", "<td>"],
+        "answer": "<table>",
+        "level": 1,
+        "hint": "This tag wraps rows and cells to create a table."
+      },
+      {
+        "question": "What is the purpose of the <em> tag?",
+        "options": ["Emphasis", "Bold", "Italic", "<Both Emphasis and Italic>"],
+        "answer": "<Both Emphasis and Italic>",
+        "level": 1,
+        "hint": "This semantic tag emphasizes text, often displayed as italic."
+      },
+      {
+        "question": "Which tag creates a button?",
+        "options": ["<button>", "<input>", "<click>", "<btn>"],
+        "answer": "<button>",
+        "level": 1,
+        "hint": "This tag creates a clickable element, often in forms."
+      },
+      {
+        "question": "What does the <div> tag do?",
+        "options": ["Groups content", "Creates link", "Embeds image", "Adds style"],
+        "answer": "Groups content",
+        "level": 1,
+        "hint": "This non-semantic tag is a container for other elements."
+      },
+      {
+        "question": "Which tag defines a heading?",
+        "options": ["<h1>", "<head>", "<header>", "<h>"],
+        "answer": "<h1>",
+        "level": 1,
+        "hint": "This tag is one of six levels for titles, starting with the largest."
+      },
+      {
+        "question": "Which attribute sets an element’s unique identifier?",
+        "options": ["id", "class", "name", "tag"],
+        "answer": "id",
+        "level": 2,
+        "hint": "This attribute ensures an element can be uniquely targeted by CSS or JS."
+      },
+      {
+        "question": "What does the <link> tag do?",
+        "options": ["Links external resources", "Creates hyperlink", "Embeds image", "Defines form"],
+        "answer": "Links external resources",
+        "level": 2,
+        "hint": "This tag is often used to connect CSS files to HTML."
+      },
+      {
+        "question": "Which tag is used for inline frames?",
+        "options": ["<iframe>", "<frame>", "<embed>", "<object>"],
+        "answer": "<iframe>",
+        "level": 2,
+        "hint": "This tag embeds external content like maps or videos."
+      },
+      {
+        "question": "What does the <caption> tag define?",
+        "options": ["Table caption", "Image caption", "Video title", "Form label"],
+        "answer": "Table caption",
+        "level": 2,
+        "hint": "This tag provides a title or description for a table."
+      },
+      {
+        "question": "Which attribute specifies a form input type?",
+        "options": ["type", "input", "method", "value"],
+        "answer": "type",
+        "level": 2,
+        "hint": "This attribute defines the kind of input, like text or checkbox."
+      },
+      {
+        "question": "What is the purpose of the <mark> tag?",
+        "options": ["Highlights text", "Bolds text", "Links text", "Embeds media"],
+        "answer": "Highlights text",
+        "level": 2,
+        "hint": "This tag visually emphasizes text, often with a background color."
+      },
+      {
+        "question": "Which tag defines a keyboard input?",
+        "options": ["<kbd>", "<key>", "<input>", "<code>"],
+        "answer": "<kbd>",
+        "level": 2,
+        "hint": "This tag represents user input, like Ctrl+C, in documentation."
+      },
+      {
+        "question": "What does the <abbr> tag represent?",
+        "options": ["Abbreviation", "Address", "Article", "Anchor"],
+        "answer": "Abbreviation",
+        "level": 2,
+        "hint": "This tag is used for acronyms or abbreviations with a 'title' attribute."
+      },
+      {
+        "question": "Which attribute sets the default value of an input?",
+        "options": ["value", "default", "placeholder", "text"],
+        "answer": "value",
+        "level": 2,
+        "hint": "This attribute pre-fills an input field with a default."
+      },
+      {
+        "question": "What does the <cite> tag indicate?",
+        "options": ["Citation", "Code", "Comment", "Caption"],
+        "answer": "Citation",
+        "level": 2,
+        "hint": "This tag references a source, like a book or article title."
+      },
+      {
+        "question": "Which tag defines a progress bar?",
+        "options": ["<progress>", "<meter>", "<bar>", "<status>"],
+        "answer": "<progress>",
+        "level": 3,
+        "hint": "This tag shows task completion, like a download bar."
+      },
+      {
+        "question": "What does the <details> tag do?",
+        "options": ["Collapsible content", "Form input", "Image embed", "Table row"],
+        "answer": "Collapsible content",
+        "level": 3,
+        "hint": "This tag creates an expandable section, often with <summary>."
+      },
+      {
+        "question": "Which attribute specifies a minimum input value?",
+        "options": ["min", "minimum", "low", "limit"],
+        "answer": "min",
+        "level": 3,
+        "hint": "This attribute sets the lowest allowed value for numeric inputs."
+      },
+      {
+        "question": "What is the purpose of the <summary> tag?",
+        "options": ["Collapsible heading", "Table summary", "Form label", "Image caption"],
+        "answer": "Collapsible heading",
+        "level": 3,
+        "hint": "This tag provides a title for a <details> element."
+      },
+      {
+        "question": "Which tag defines a dialog box?",
+        "options": ["<dialog>", "<popup>", "<modal>", "<box>"],
+        "answer": "<dialog>",
+        "level": 3,
+        "hint": "This tag creates a pop-up or modal with JavaScript support."
+      },
+      {
+        "question": "What does the <data> tag provide?",
+        "options": ["Machine-readable data", "Form input", "Image source", "Script link"],
+        "answer": "Machine-readable data",
+        "level": 3,
+        "hint": "This tag pairs content with a 'value' attribute for scripts."
+      },
+      {
+        "question": "Which attribute specifies an image’s width?",
+        "options": ["width", "size", "length", "dimension"],
+        "answer": "width",
+        "level": 3,
+        "hint": "This attribute sets the horizontal size of an image in pixels."
+      },
+      {
+        "question": "What does the <output> tag represent?",
+        "options": ["Form calculation result", "Console output", "Image render", "Table cell"],
+        "answer": "Form calculation result",
+        "level": 3,
+        "hint": "This tag displays computed results within a form."
+      },
+      {
+        "question": "Which tag defines a ruby annotation?",
+        "options": ["<ruby>", "<rt>", "<rp>", "<annot>"],
+        "answer": "<ruby>",
+        "level": 3,
+        "hint": "This tag is used for East Asian text annotations."
+      },
+      {
+        "question": "What does the <template> tag do?",
+        "options": ["Holds reusable content", "Embeds video", "Defines form", "Styles page"],
+        "answer": "Holds reusable content",
+        "level": 3,
+        "hint": "This tag stores content for JavaScript to clone later."
+      },
+      {
+        "question": "Which attribute makes a field read-only?",
+        "options": ["readonly", "disabled", "locked", "static"],
+        "answer": "readonly",
+        "level": 3,
+        "hint": "This attribute prevents editing but allows interaction."
+      },
+      {
+        "question": "What is the purpose of the <base> tag?",
+        "options": ["Base URL for links", "Main content", "Header", "Footer"],
+        "answer": "Base URL for links",
+        "level": 3,
+        "hint": "This tag sets a default URL for relative links."
+      },
+      {
+        "question": "Which tag defines a table data cell?",
+        "options": ["<td>", "<tr>", "<th>", "<table>"],
+        "answer": "<td>",
+        "level": 1,
+        "hint": "This tag holds content within a table row."
+      },
+      {
+        "question": "What does the <strong> tag indicate?",
+        "options": ["Strong importance", "Italic text", "Link", "Image"],
+        "answer": "Strong importance",
+        "level": 1,
+        "hint": "This semantic tag emphasizes text, often displayed as bold."
+      },
+      {
+        "question": "Which tag embeds an external resource?",
+        "options": ["<embed>", "<iframe>", "<object>", "<All of these>"],
+        "answer": "<All of these>",
+        "level": 2,
+        "hint": "These tags can embed content like multimedia or external pages."
+      },
+      {
+        "question": "What does the <bdi> tag do?",
+        "options": ["Isolates bidirectional text", "Bolds text", "Defines input", "Embeds image"],
+        "answer": "Isolates bidirectional text",
+        "level": 3,
+        "hint": "This tag handles text direction for languages like Arabic."
+      },
+      {
+        "question": "Which attribute sets a form’s submission method?",
+        "options": ["method", "action", "type", "submit"],
+        "answer": "method",
+        "level": 2,
+        "hint": "This attribute chooses between GET or POST for form submission."
+      },
+      {
+        "question": "What is the purpose of the <optgroup> tag?",
+        "options": ["Groups options in dropdown", "Creates form", "Embeds video", "Styles text"],
+        "answer": "Groups options in dropdown",
+        "level": 3,
+        "hint": "This tag organizes <option> tags in a <select> menu."
+      },
+      {
+        "question": "Which tag defines a superscript?",
+        "options": ["<sup>", "<sub>", "<super>", "<top>"],
+        "answer": "<sup>",
+        "level": 2,
+        "hint": "This tag raises text, like for exponents in math."
+      },
+      {
+        "question": "What does the <sub> tag define?",
+        "options": ["Subscript", "Superscript", "Small text", "Bold text"],
+        "answer": "Subscript",
+        "level": 2,
+        "hint": "This tag lowers text, like for chemical formulas."
+      },
+      {
+        "question": "Which attribute specifies a form’s target frame?",
+        "options": ["target", "frame", "window", "dest"],
+        "answer": "target",
+        "level": 3,
+        "hint": "This attribute defines where a form’s response is displayed."
+      },
+      {
+        "question": "What does the <meter> tag represent?",
+        "options": ["Measurement range", "Progress bar", "Form input", "Table row"],
+        "answer": "Measurement range",
+        "level": 3,
+        "hint": "This tag shows a value within a defined range, like a gauge."
+      },
+      {
+        "question": "Which tag defines a text track for media?",
+        "options": ["<track>", "<subtitle>", "<caption>", "<text>"],
+        "answer": "<track>",
+        "level": 3,
+        "hint": "This tag adds subtitles or captions to <video> or <audio>."
+      },
+      {
+        "question": "What is the purpose of the <var> tag?",
+        "options": ["Variable in expression", "Code snippet", "Comment", "Link"],
+        "answer": "Variable in expression",
+        "level": 2,
+        "hint": "This tag denotes a variable in math or programming contexts."
+      },
+      {
+        "question": "Which attribute sets an element’s language?",
+        "options": ["lang", "language", "locale", "dir"],
+        "answer": "lang",
+        "level": 3,
+        "hint": "This attribute specifies the language code, like 'en' for English."
+      },
+      {
+        "question": "What does the <del> tag indicate?",
+        "options": ["Deleted text", "Inserted text", "Bold text", "Code"],
+        "answer": "Deleted text",
+        "level": 2,
+        "hint": "This tag shows text that has been removed, often struck through."
+      },
+      {
+        "question": "Which tag defines inserted text?",
+        "options": ["<ins>", "<add>", "<new>", "<edit>"],
+        "answer": "<ins>",
+        "level": 2,
+        "hint": "This tag shows text added to a document, often underlined."
+      },
+      {
+        "question": "What is the purpose of the <samp> tag?",
+        "options": ["Sample output", "Code snippet", "Input field", "Image"],
+        "answer": "Sample output",
+        "level": 3,
+        "hint": "This tag displays example output from a program."
+      },
+      {
+        "question": "Which attribute specifies a form’s autocomplete?",
+        "options": ["autocomplete", "auto", "complete", "fill"],
+        "answer": "autocomplete",
+        "level": 3,
+        "hint": "This attribute controls whether browsers suggest form input values."
+      },
+      {
+        "question": "What does the <address> tag define?",
+        "options": ["Contact information", "Street address", "Email link", "Map location"],
+        "answer": "Contact information",
+        "level": 2,
+        "hint": "This tag provides contact details, like email or phone."
+      },
+      {
+        "question": "Which tag defines a blockquote?",
+        "options": ["<blockquote>", "<quote>", "<q>", "<Both blockquote and q>"],
+        "answer": "<Both blockquote and q>",
+        "level": 2,
+        "hint": "These tags format quoted text, one for blocks, one inline."
+      },
+      {
+        "question": "What does the <pre> tag do?",
+        "options": ["Preserves formatting", "Bolds text", "Embeds code", "Creates form"],
+        "answer": "Preserves formatting",
+        "level": 2,
+        "hint": "This tag keeps spaces and line breaks in text."
+      },
+      {
+        "question": "Which attribute specifies an image’s height?",
+        "options": ["height", "size", "length", "dimension"],
+        "answer": "height",
+        "level": 3,
+        "hint": "This attribute sets the vertical size of an image in pixels."
+      },
+      {
+        "question": "What does the <small> tag indicate?",
+        "options": ["Smaller text", "Bold text", "Italic text", "Code"],
+        "answer": "Smaller text",
+        "level": 2,
+        "hint": "This tag reduces text size for fine print or asides."
+      },
+      {
+        "question": "Which tag defines a definition list?",
+        "options": ["<dl>", "<ul>", "<ol>", "<list>"],
+        "answer": "<dl>",
+        "level": 3,
+        "hint": "This tag pairs terms with their descriptions."
+      },
+      {
+        "question": "What does the <dt> tag define?",
+        "options": ["Definition term", "Definition list", "Description", "Data"],
+        "answer": "Definition term",
+        "level": 3,
+        "hint": "This tag specifies a term in a <dl> list."
+      },
+      {
+        "question": "Which tag defines a description in a definition list?",
+        "options": ["<dd>", "<dt>", "<dl>", "<desc>"],
+        "answer": "<dd>",
+        "level": 3,
+        "hint": "This tag provides the explanation for a <dt> term."
+      },
+      {
+        "question": "What does the <code> tag represent?",
+        "options": ["Code snippet", "Variable", "Comment", "Output"],
+        "answer": "Code snippet",
+        "level": 2,
+        "hint": "This tag displays programming code in a monospaced font."
+      },
+      {
+        "question": "Which attribute specifies a button’s type?",
+        "options": ["type", "action", "method", "value"],
+        "answer": "type",
+        "level": 2,
+        "hint": "This attribute defines a button’s role, like 'submit' or 'reset'."
+      },
+      {
+        "question": "What does the <area> tag define?",
+        "options": ["Image map area", "Image source", "Form field", "Table cell"],
+        "answer": "Image map area",
+        "level": 3,
+        "hint": "This tag creates clickable regions in an image map."
+      },
+      {
+        "question": "Which tag defines a client-side script?",
+        "options": ["<script>", "<code>", "<js>", "<javascript>"],
+        "answer": "<script>",
+        "level": 2,
+        "hint": "This tag runs JavaScript code in an HTML document."
+      },
+      {
+        "question": "What does the <canvas> tag do?",
+        "options": ["Draws graphics", "Embeds video", "Creates form", "Styles page"],
+        "answer": "Draws graphics",
+        "level": 3,
+        "hint": "This tag is used with JavaScript for dynamic graphics."
+      },
+      {
+        "question": "Which attribute sets a form’s encoding type?",
+        "options": ["enctype", "encoding", "type", "format"],
+        "answer": "enctype",
+        "level": 3,
+        "hint": "This attribute specifies how form data is encoded for submission."
+      }
+    ],
+    "python": [
+      {
+        "question": "What is the output of print(2 ** 3)?",
+        "options": ["6", "8", "9", "5"],
+        "answer": "8",
+        "level": 1,
+        "hint": "The ** operator raises the first number to the power of the second."
+      },
+      {
+        "question": "What keyword is used to define a function?",
+        "options": ["func", "define", "def", "function"],
+        "answer": "def",
+        "level": 1,
+        "hint": "This keyword is followed by a function name and parentheses."
+      },
+      {
+        "question": "Which of these is a list?",
+        "options": ["{1,2}", "[1,2]", "(1,2)", "<1,2>"],
+        "answer": "[1,2]",
+        "level": 2,
+        "hint": "Lists use square brackets to hold elements."
+      },
+      {
+        "question": "What is the result of 10 // 3?",
+        "options": ["3", "3.3", "3.0", "Error"],
+        "answer": "3",
+        "level": 2,
+        "hint": "The // operator performs floor division, discarding decimals."
+      },
+      {
+        "question": "Which module is used for regular expressions?",
+        "options": ["os", "sys", "re", "regex"],
+        "answer": "re",
+        "level": 3,
+        "hint": "This module handles pattern matching for strings."
+      },
+      {
+        "question": "What is the output of print(5 + 3)?",
+        "options": ["8", "53", "15", "Error"],
+        "answer": "8",
+        "level": 1,
+        "hint": "The + operator adds numbers in Python."
+      },
+      {
+        "question": "Which keyword creates a loop?",
+        "options": ["for", "loop", "do", "run"],
+        "answer": "for",
+        "level": 1,
+        "hint": "This keyword iterates over a sequence like a list or range."
+      },
+      {
+        "question": "What is the type of '3.14'?",
+        "options": ["int", "float", "str", "bool"],
+        "answer": "str",
+        "level": 1,
+        "hint": "Quotes around a number make it a string."
+      },
+      {
+        "question": "Which symbol denotes a comment?",
+        "options": ["#", "//", "/*", "--"],
+        "answer": "#",
+        "level": 1,
+        "hint": "This symbol starts a single-line comment in Python."
+      },
+      {
+        "question": "What is used to indent code blocks?",
+        "options": ["Tabs", "Spaces", "Braces", "Parentheses"],
+        "answer": "Spaces",
+        "level": 1,
+        "hint": "Python typically uses four of these for indentation."
+      },
+      {
+        "question": "Which keyword checks conditions?",
+        "options": ["if", "check", "when", "test"],
+        "answer": "if",
+        "level": 1,
+        "hint": "This keyword evaluates a condition for branching."
+      },
+      {
+        "question": "What is the output of print(len('hello'))?",
+        "options": ["5", "4", "6", "Error"],
+        "answer": "5",
+        "level": 1,
+        "hint": "The len() function counts characters in a string."
+      },
+      {
+        "question": "Which type is mutable?",
+        "options": ["str", "tuple", "list", "int"],
+        "answer": "list",
+        "level": 1,
+        "hint": "This type allows elements to be changed after creation."
+      },
+      {
+        "question": "What does 'True' represent?",
+        "options": ["String", "Boolean", "Integer", "Float"],
+        "answer": "Boolean",
+        "level": 1,
+        "hint": "This value is used in logical operations."
+      },
+      {
+        "question": "Which operator checks equality?",
+        "options": ["=", "==", "===", ":="],
+        "answer": "==",
+        "level": 1,
+        "hint": "This operator compares two values for equality."
+      },
+      {
+        "question": "What is the output of print(10 % 3)?",
+        "options": ["1", "3", "0", "Error"],
+        "answer": "1",
+        "level": 2,
+        "hint": "The % operator returns the remainder of division."
+      },
+      {
+        "question": "Which keyword exits a loop?",
+        "options": ["break", "stop", "exit", "end"],
+        "answer": "break",
+        "level": 2,
+        "hint": "This keyword stops a loop entirely."
+      },
+      {
+        "question": "What does 'range(5)' generate?",
+        "options": ["0 to 4", "1 to 5", "0 to 5", "1 to 4"],
+        "answer": "0 to 4",
+        "level": 2,
+        "hint": "This function generates numbers starting from 0 up to but not including 5."
+      },
+      {
+        "question": "Which method converts a string to uppercase?",
+        "options": ["upper()", "toUpper()", "uppercase()", "up()"],
+        "answer": "upper()",
+        "level": 2,
+        "hint": "This string method changes all characters to uppercase."
+      },
+      {
+        "question": "What is the output of print([1,2,3][1])?",
+        "options": ["1", "2", "3", "Error"],
+        "answer": "2",
+        "level": 2,
+        "hint": "List indexing starts at 0, so [1] accesses the second element."
+      },
+      {
+        "question": "Which keyword defines a class?",
+        "options": ["class", "struct", "object", "type"],
+        "answer": "class",
+        "level": 2,
+        "hint": "This keyword creates a blueprint for objects."
+      },
+      {
+        "question": "What does 'None' represent?",
+        "options": ["Null value", "Zero", "Empty string", "False"],
+        "answer": "Null value",
+        "level": 2,
+        "hint": "This value indicates the absence of a value."
+      },
+      {
+        "question": "Which method adds an element to a list?",
+        "options": ["append()", "add()", "push()", "insert()"],
+        "answer": "append()",
+        "level": 2,
+        "hint": "This method adds an item to the end of a list."
+      },
+      {
+        "question": "What is the output of print('a' in 'cat')?",
+        "options": ["True", "False", "Error", "None"],
+        "answer": "True",
+        "level": 2,
+        "hint": "The 'in' operator checks if a character exists in a string."
+      },
+      {
+        "question": "Which module handles math operations?",
+        "options": ["math", "num", "calc", "arithmetic"],
+        "answer": "math",
+        "level": 2,
+        "hint": "This module provides functions like sqrt() and pi."
+      },
+      {
+        "question": "What does the 'try' keyword do?",
+        "options": ["Handles exceptions", "Defines function", "Creates loop", "Imports module"],
+        "answer": "Handles exceptions",
+        "level": 3,
+        "hint": "This keyword is paired with 'except' for error handling."
+      },
+      {
+        "question": "What is the output of print(list(range(2,5)))?",
+        "options": ["[2,3,4]", "[2,3,4,5]", "[1,2,3,4]", "Error"],
+        "answer": "[2,3,4]",
+        "level": 3,
+        "hint": "range(2,5) generates numbers from 2 up to but not including 5."
+      },
+      {
+        "question": "Which method removes an element from a list?",
+        "options": ["remove()", "delete()", "pop()", "<Both remove() and pop()>"],
+        "answer": "<Both remove() and pop()>",
+        "level": 3,
+        "hint": "One method removes by value, the other by index."
+      },
+      {
+        "question": "What does the 'lambda' keyword create?",
+        "options": ["Anonymous function", "Class", "Loop", "Module"],
+        "answer": "Anonymous function",
+        "level": 3,
+        "hint": "This keyword defines a short, nameless function."
+      },
+      {
+        "question": "Which module handles file operations?",
+        "options": ["os", "file", "io", "sys"],
+        "answer": "os",
+        "level": 3,
+        "hint": "This module provides functions like open() and remove()."
+      },
+      {
+        "question": "What is the output of print({1: 'one', 2: 'two'}[1])?",
+        "options": ["one", "two", "1", "Error"],
+        "answer": "one",
+        "level": 3,
+        "hint": "Dictionary access uses keys to retrieve values."
+      },
+      {
+        "question": "Which keyword raises an exception?",
+        "options": ["raise", "throw", "error", "exception"],
+        "answer": "raise",
+        "level": 3,
+        "hint": "This keyword triggers a custom error."
+      },
+      {
+        "question": "What does 'is' operator check?",
+        "options": ["Identity", "Equality", "Type", "Value"],
+        "answer": "Identity",
+        "level": 3,
+        "hint": "This operator checks if two objects are the same in memory."
+      },
+      {
+        "question": "Which method splits a string?",
+        "options": ["split()", "divide()", "slice()", "cut()"],
+        "answer": "split()",
+        "level": 3,
+        "hint": "This method breaks a string into a list based on a delimiter."
+      },
+      {
+        "question": "What is the output of print(tuple([1,2,3]))?",
+        "options": ["(1,2,3)", "[1,2,3]", "{1,2,3}", "Error"],
+        "answer": "(1,2,3)",
+        "level": 3,
+        "hint": "The tuple() function converts a list to an immutable sequence."
+      },
+      {
+        "question": "Which keyword imports a module?",
+        "options": ["import", "include", "require", "load"],
+        "answer": "import",
+        "level": 1,
+        "hint": "This keyword brings external modules into a script."
+      },
+      {
+        "question": "What is the output of print(3 * 'a')?",
+        "options": ["aaa", "3a", "Error", "a3"],
+        "answer": "aaa",
+        "level": 1,
+        "hint": "The * operator repeats a string a given number of times."
+      },
+      {
+        "question": "Which type is immutable?",
+        "options": ["list", "tuple", "dict", "set"],
+        "answer": "tuple",
+        "level": 1,
+        "hint": "This type cannot be modified after creation."
+      },
+      {
+        "question": "What does the 'else' keyword do?",
+        "options": ["Alternative condition", "Loop exit", "Function return", "Error handling"],
+        "answer": "Alternative condition",
+        "level": 1,
+        "hint": "This keyword follows an 'if' for alternative logic."
+      },
+      {
+        "question": "Which operator performs division?",
+        "options": ["/", "\\", "%", "*"],
+        "answer": "/",
+        "level": 1,
+        "hint": "This operator divides numbers, returning a float."
+      },
+      {
+        "question": "What is the output of print(bool(0))?",
+        "options": ["True", "False", "Error", "None"],
+        "answer": "False",
+        "level": 1,
+        "hint": "Zero is considered false in a boolean context."
+      },
+      {
+        "question": "Which keyword skips an iteration?",
+        "options": ["continue", "skip", "next", "pass"],
+        "answer": "continue",
+        "level": 2,
+        "hint": "This keyword moves to the next loop iteration."
+      },
+      {
+        "question": "What does the 'in' operator check?",
+        "options": ["Membership", "Identity", "Equality", "Type"],
+        "answer": "Membership",
+        "level": 2,
+        "hint": "This operator checks if an item exists in a sequence."
+      },
+      {
+        "question": "Which method joins a list of strings?",
+        "options": ["join()", "concat()", "merge()", "combine()"],
+        "answer": "join()",
+        "level": 2,
+        "hint": "This string method combines list elements with a separator."
+      },
+      {
+        "question": "What is the output of print(2 + 3 * 4)?",
+        "options": ["20", "14", "12", "Error"],
+        "answer": "14",
+        "level": 2,
+        "hint": "Operator precedence multiplies before adding."
+      },
+      {
+        "question": "Which module handles random numbers?",
+        "options": ["random", "rand", "num", "shuffle"],
+        "answer": "random",
+        "level": 2,
+        "hint": "This module provides functions like randint() and shuffle()."
+      },
+      {
+        "question": "What does the 'global' keyword do?",
+        "options": ["Accesses global variable", "Defines function", "Creates loop", "Imports module"],
+        "answer": "Accesses global variable",
+        "level": 2,
+        "hint": "This keyword allows modifying variables outside a function’s scope."
+      },
+      {
+        "question": "Which method reverses a list?",
+        "options": ["reverse()", "flip()", "invert()", "back()"],
+        "answer": "reverse()",
+        "level": 2,
+        "hint": "This method changes a list’s order in place."
+      },
+      {
+        "question": "What is the output of print('hello'[0])?",
+        "options": ["h", "e", "l", "Error"],
+        "answer": "h",
+        "level": 2,
+        "hint": "String indexing starts at 0 for the first character."
+      },
+      {
+        "question": "Which keyword defines a constant?",
+        "options": ["const", "final", "None", "No keyword"],
+        "answer": "No keyword",
+        "level": 2,
+        "hint": "Python uses naming conventions like ALL_CAPS for constants."
+      },
+      {
+        "question": "What does the 'set' type store?",
+        "options": ["Unique elements", "Ordered elements", "Key-value pairs", "Duplicates"],
+        "answer": "Unique elements",
+        "level": 2,
+        "hint": "This type automatically removes duplicate entries."
+      },
+      {
+        "question": "Which method checks if a string starts with a substring?",
+        "options": ["startswith()", "begins()", "first()", "start()"],
+        "answer": "startswith()",
+        "level": 3,
+        "hint": "This method checks the beginning of a string for a match."
+      },
+      {
+        "question": "What is the output of print({1,2,2,3})?",
+        "options": ["{1,2,3}", "{1,2,2,3}", "[1,2,3]", "Error"],
+        "answer": "{1,2,3}",
+        "level": 3,
+        "hint": "Sets only store unique values, removing duplicates."
+      },
+      {
+        "question": "Which module handles date and time?",
+        "options": ["datetime", "time", "date", "<Both datetime and time>"],
+        "answer": "<Both datetime and time>",
+        "level": 3,
+        "hint": "These modules handle timestamps and date formatting."
+      },
+      {
+        "question": "What does the 'yield' keyword do?",
+        "options": ["Creates generator", "Returns value", "Breaks loop", "Raises error"],
+        "answer": "Creates generator",
+        "level": 3,
+        "hint": "This keyword produces values one at a time in a function."
+      },
+      {
+        "question": "Which method sorts a list?",
+        "options": ["sort()", "order()", "arrange()", "align()"],
+        "answer": "sort()",
+        "level": 3,
+        "hint": "This method reorders a list in place."
+      },
+      {
+        "question": "What is the output of print(len({1: 'a', 2: 'b'}))?",
+        "options": ["2", "1", "3", "Error"],
+        "answer": "2",
+        "level": 3,
+        "hint": "The len() function counts key-value pairs in a dictionary."
+      },
+      {
+        "question": "Which keyword handles multiple exceptions?",
+        "options": ["except", "catch", "try", "handle"],
+        "answer": "except",
+        "level": 3,
+        "hint": "This keyword catches specific errors after a 'try' block."
+      },
+      {
+        "question": "What does the 'map' function do?",
+        "options": ["Applies function to items", "Filters items", "Reduces list", "Joins strings"],
+        "answer": "Applies function to items",
+        "level": 3,
+        "hint": "This function transforms each element in an iterable."
+      },
+      {
+        "question": "Which method removes duplicates from a list?",
+        "options": ["set()", "unique()", "distinct()", "No method"],
+        "answer": "set()",
+        "level": 3,
+        "hint": "Converting a list to this type removes duplicates."
+      },
+      {
+        "question": "What is the output of print('a' + 'b')?",
+        "options": ["ab", "a+b", "Error", "None"],
+        "answer": "ab",
+        "level": 1,
+        "hint": "The + operator concatenates strings in Python."
+      },
+      {
+        "question": "Which keyword defines a loop that runs indefinitely?",
+        "options": ["while", "for", "loop", "do"],
+        "answer": "while",
+        "level": 1,
+        "hint": "This keyword creates a loop based on a condition."
+      },
+      {
+        "question": "What is the type of [1,2,3]?",
+        "options": ["list", "tuple", "set", "dict"],
+        "answer": "list",
+        "level": 1,
+        "hint": "This type uses square brackets and is mutable."
+      },
+      {
+        "question": "Which operator performs exponentiation?",
+        "options": ["**", "^", "//", "*"],
+        "answer": "**",
+        "level": 1,
+        "hint": "This operator raises a number to a power."
+      },
+      {
+        "question": "What does the 'pass' keyword do?",
+        "options": ["Placeholder", "Breaks loop", "Skips iteration", "Returns value"],
+        "answer": "Placeholder",
+        "level": 1,
+        "hint": "This keyword is used as a no-op in code blocks."
+      },
+      {
+        "question": "What is the output of print(4 < 5)?",
+        "options": ["True", "False", "Error", "None"],
+        "answer": "True",
+        "level": 1,
+        "hint": "Comparison operators return a boolean value."
+      },
+      {
+        "question": "Which method converts a string to lowercase?",
+        "options": ["lower()", "toLower()", "lowercase()", "down()"],
+        "answer": "lower()",
+        "level": 2,
+        "hint": "This string method changes all characters to lowercase."
+      },
+      {
+        "question": "What does the 'not' operator do?",
+        "options": ["Logical negation", "Bitwise negation", "Subtraction", "Comparison"],
+        "answer": "Logical negation",
+        "level": 2,
+        "hint": "This operator inverts a boolean value."
+      },
+      {
+        "question": "Which method checks if a string is numeric?",
+        "options": ["isnumeric()", "isdigit()", "<Both isnumeric() and isdigit()>", "isnumber()"],
+        "answer": "<Both isnumeric() and isdigit()>",
+        "level": 2,
+        "hint": "These methods check if a string contains only digits."
+      },
+      {
+        "question": "What is the output of print([1,2] + [3,4])?",
+        "options": ["[1,2,3,4]", "[1,2][3,4]", "Error", "[4,6]"],
+        "answer": "[1,2,3,4]",
+        "level": 2,
+        "hint": "The + operator concatenates two lists."
+      },
+      {
+        "question": "Which module handles JSON data?",
+        "options": ["json", "data", "serialize", "parse"],
+        "answer": "json",
+        "level": 2,
+        "hint": "This module provides functions like dumps() and loads()."
+      },
+      {
+        "question": "What does the 'filter' function do?",
+        "options": ["Filters items", "Maps items", "Reduces list", "Joins strings"],
+        "answer": "Filters items",
+        "level": 3,
+        "hint": "This function selects items based on a condition."
+      },
+      {
+        "question": "Which method gets a dictionary’s keys?",
+        "options": ["keys()", "getkeys()", "items()", "values()"],
+        "answer": "keys()",
+        "level": 3,
+        "hint": "This method returns a view of dictionary keys."
+      },
+      {
+        "question": "What is the output of print(ord('A'))?",
+        "options": ["65", "97", "A", "Error"],
+        "answer": "65",
+        "level": 3,
+        "hint": "The ord() function returns the ASCII value of a character."
+      },
+      {
+        "question": "Which keyword defines a method in a class?",
+        "options": ["def", "method", "func", "class"],
+        "answer": "def",
+        "level": 2,
+        "hint": "This keyword is used for both functions and class methods."
+      },
+      {
+        "question": "What does the 'zip' function do?",
+        "options": ["Pairs iterables", "Splits lists", "Joins strings", "Sorts items"],
+        "answer": "Pairs iterables",
+        "level": 3,
+        "hint": "This function combines elements from multiple iterables."
+      },
+      {
+        "question": "Which method checks if a string ends with a substring?",
+        "options": ["endswith()", "last()", "finish()", "end()"],
+        "answer": "endswith()",
+        "level": 3,
+        "hint": "This method checks the end of a string for a match."
+      },
+      {
+      "question": "What is the output of '123'.toString()?",
+      "options": ["'123'", "123", "Error", "null"],
+      "answer": "'123'",
+        "level": 2,
+      "hint": "This method ensures a value is a string."
+    },
+    {
+      "question": "Which keyword defines an arrow function?",
+      "options": ["=>", "->", "function", "lambda"],
+      "answer": "=>",
+        "level": 3,
+      "hint": "This syntax creates a concise function expression."
+    },
+    {
+      "question": "What does the 'spread' operator do?",
+      "options": ["Expands arrays/objects", "Merges strings", "Defines class", "Throws error"],
+      "answer": "Expands arrays/objects",
+        "level": 3,
+      "hint": "This operator (...) unpacks iterables."
+    }
+  ],
+  "javascript": [
+    {
+      "question": "Which keyword declares a variable?",
+      "options": ["var", "let", "const", "<All of these>"],
+      "answer": "<All of these>",
+        "level": 1,
+      "hint": "These keywords are used for variable declaration in JavaScript, each with different scoping rules."
+    },
+    {
+      "question": "What is the output of console.log(typeof [])?",
+      "options": ["array", "object", "list", "undefined"],
+      "answer": "object",
+        "level": 2,
+      "hint": "In JavaScript, arrays are a type of object."
+    },
+    {
+      "question": "Which method adds an element to the end of an array?",
+      "options": ["push()", "add()", "append()", "insert()"],
+      "answer": "push()",
+        "level": 1,
+      "hint": "This method modifies the array in place and returns the new length."
+    },
+    {
+      "question": "What is the correct way to write an IF statement?",
+      "options": ["if i == 5 then", "if (i == 5)", "if i = 5", "if i === 5 then"],
+      "answer": "if (i == 5)",
+        "level": 1,
+      "hint": "Conditions in JavaScript if statements are enclosed in parentheses."
+    },
+    {
+      "question": "Which operator checks for both value and type equality?",
+      "options": ["==", "===", "=", "!="],
+      "answer": "===",
+        "level": 2,
+      "hint": "This is known as the strict equality operator."
+    },
+    {
+      "question": "What does NaN stand for?",
+      "options": ["Not a Number", "No Action", "Negative Number", "Null and None"],
+      "answer": "Not a Number",
+        "level": 2,
+      "hint": "It indicates an invalid or unrepresentable numerical value."
+    },
+    {
+      "question": "Which function converts a string to an integer?",
+      "options": ["parseInt()", "toInteger()", "stringToInt()", "convertInt()"],
+      "answer": "parseInt()",
+        "level": 2,
+      "hint": "This global function parses a string argument and returns an integer."
+    },
+    {
+      "question": "Which method removes the last element from an array?",
+      "options": ["pop()", "removeLast()", "delete()", "slice()"],
+      "answer": "pop()",
+      "level": 1,
+      "hint": "This method modifies the array in place and returns the removed element."
+    },
+    {
+      "question": "What is the output of typeof null?",
+      "options": ["null", "object", "undefined", "number"],
+      "answer": "object",
+        "level": 3,
+      "hint": "This is a well-known quirk in JavaScript's type system."
+    },
+    {
+      "question": "Which statement creates a loop that executes a block of code while a condition is true?",
+      "options": ["for loop", "while loop", "do...while loop", "forEach loop"],
+      "answer": "while loop",
+        "level": 1,
+      "hint": "This loop continues as long as its condition remains true."
+    },
+    {
+      "question": "Which method executes a function once for each array element?",
+      "options": ["forEach()", "map()", "filter()", "reduce()"],
+      "answer": "forEach()",
+      "level": 2,
+      "hint": "This method is often used for iterating over arrays without creating a new one."
+    },
+    {
+      "question": "How do you comment out a single line in JavaScript?",
+      "options": ["// Comment", "/* Comment */", "# Comment", ""],
+      "answer": "// Comment",
+        "level": 1,
+      "hint": "This is the same as in C++ or Java for single-line comments."
+    },
+    {
+      "question": "Which method combines two or more arrays?",
+      "options": ["concat()", "join()", "merge()", "combine()"],
+      "answer": "concat()",
+      "level": 2,
+      "hint": "This method returns a new array without modifying the existing ones."
+    },
+    {
+      "question": "What is the purpose of the 'return' statement?",
+      "options": ["Exits a function and returns a value", "Breaks out of a loop", "Declares a variable", "Prints to console"],
+      "answer": "Exits a function and returns a value",
+        "level": 1,
+      "hint": "It specifies the value that a function sends back to where it was called."
+    },
+    {
+      "question": "Which event occurs when the user clicks on an HTML element?",
+      "options": ["onchange", "onclick", "onmouseover", "onkeydown"],
+      "answer": "onclick",
+        "level": 1,
+      "hint": "This is one of the most common event handlers for user interaction."
+    },
+    {
+      "question": "What is the output of console.log(5 + '5')?",
+      "options": ["10", "55", "Error", "NaN"],
+      "answer": "55",
+        "level": 2,
+      "hint": "The '+' operator performs string concatenation if one operand is a string."
+    },
+    {
+      "question": "Which method searches a string for a specified value and returns the position of the match?",
+      "options": ["indexOf()", "search()", "match()", "find()"],
+      "answer": "indexOf()",
+        "level": 2,
+      "hint": "This method returns -1 if the value is not found."
+    },
+    {
+      "question": "What is the output of console.log(Boolean(''))?",
+      "options": ["true", "false", "undefined", "null"],
+      "answer": "false",
+        "level": 2,
+      "hint": "An empty string is considered a 'falsy' value."
+    },
+    {
+      "question": "Which operator assigns a value to a variable?",
+      "options": ["-", "*", "=", "+"],
+      "answer": "=",
+        "level": 1,
+      "hint": "This is the single equal sign."
+    },
+    {
+      "question": "What is the output of console.log(typeof undefined)?",
+      "options": ["null", "object", "undefined", "string"],
+        "answer": "undefined",
+        "level": 1,
+      "hint": "It signifies that a variable has been declared but has not yet been assigned a value."
+    },
+    {
+      "question": "Which method calls a function or evaluates an expression at specified intervals?",
+      "options": ["setInterval()", "setTimeout()", "clearInterval()", "executeInterval()"],
+      "answer": "setInterval()",
+        "level": 2,
+      "hint": "This function is useful for animations or recurring tasks."
+    },
+    {
+      "question": "Which keyword is used to handle errors in a try block?",
+      "options": ["catch", "throw", "finally", "error"],
+      "answer": "catch",
+        "level": 2,
+      "hint": "This block is executed if an error occurs in the preceding try block."
+    },
+    {
+      "question": "What is the output of console.log(Math.max(10, 20))?",
+      "options": ["10", "20", "NaN", "Error"],
+      "answer": "20",
+        "level": 1,
+      "hint": "This method returns the largest of zero or more numbers."
+    },
+    {
+      "question": "Which method removes the first element from an array?",
+      "options": ["shift()", "splice()", "unshift()", "slice()"],
+      "answer": "shift()",
+        "level": 3,
+      "hint": "This method changes the length of the array and returns the removed element."
+    },
+    {
+      "question": "What is the output of console.log(+'100')",
+      "options": ["100", "NaN", "Error", "'100'"],
+      "answer": "100",
+        "level": 3,
+      "hint": "The unary plus operator can be used to convert a string to a number."
+    },
+    {
+      "question": "Which method returns a new array containing the results of calling a provided function on every element in the calling array?",
+      "options": ["map()", "forEach()", "filter()", "reduce()"],
+      "answer": "map()",
+        "level": 2,
+      "hint": "This method is commonly used for transformations of array elements."
+    },
+    {
+      "question": "What does JSON.parse() do?",
+      "options": ["Converts a JavaScript object to a JSON string", "Parses a JSON string, constructing the JavaScript value or object described by the string", "Converts a JSON string to an XML document", "Validates JSON syntax"],
+      "answer": "Parses a JSON string, constructing the JavaScript value or object described by the string",
+        "level": 2,
+      "hint": "It is used for deserializing JSON data."
+    },
+    {
+      "question": "Which method sends data to a web server?",
+      "options": ["fetch()", "get()", "post()", "send()"],
+      "answer": "fetch()",
+        "level": 3,
+      "hint": "This API provides an interface for fetching resources (including across the network)."
+    },
+    {
+      "question": "What is the output of console.log(10 == '10')?",
+      "options": ["true", "false", "Error", "NaN"],
+      "answer": "true",
+        "level": 1,
+      "hint": "The '==' operator performs type coercion before comparison."
+    },
+    {
+      "question": "Which method selects HTML elements by their ID?",
+      "options": ["getElementById()", "querySelector()", "getElementsByClassName()", "getElementsByTagName()"],
+      "answer": "getElementById()",
+        "level": 1,
+      "hint": "This method is the most efficient way to access a single element by its unique ID."
+    },
+    {
+      "question": "What is the output of console.log(Math.floor(7.8))?",
+      "options": ["7", "8", "7.5", "Error"],
+      "answer": "7",
+        "level": 1,
+      "hint": "This method rounds a number downwards to the nearest integer."
+    },
+    {
+      "question": "Which method adds one or more elements to the beginning of an array?",
+      "options": ["unshift()", "push()", "insertFirst()", "addToStart()"],
+      "answer": "unshift()",
+        "level": 3,
+      "hint": "This method changes the length of the array and returns the new length."
+    },
+    {
+      "question": "What does JSON.stringify() do?",
+      "options": ["Parses a JSON string", "Converts a JavaScript value to a JSON string", "Validates JSON syntax", "Converts a JSON string to an XML document"],
+      "answer": "Converts a JavaScript value to a JSON string",
+        "level": 2,
+      "hint": "It is used for serializing JavaScript objects into JSON."
+    },
+    {
+      "question": "Which method is used to sort the elements of an array?",
+      "options": ["sort()", "order()", "arrange()", "organize()"],
+      "answer": "sort()",
+        "level": 2,
+      "hint": "This method sorts the elements in place and returns the sorted array."
+    },
+    {
+      "question": "What is the output of console.log(null == undefined)?",
+      "options": ["true", "false", "Error", "NaN"],
+      "answer": "true",
+        "level": 2,
+      "hint": "Both represent an absence of value and are loosely equal."
+    },
+    {
+      "question": "Which method is used to remove elements from an array and/or add new elements in their place?",
+      "options": ["splice()", "slice()", "remove()", "replace()"],
+      "answer": "splice()",
+        "level": 3,
+      "hint": "This method can be used for insertion, deletion, and replacement of elements."
+    },
+    {
+      "question": "What is the output of console.log(typeof function(){})?",
+      "options": ["function", "object", "undefined", "string"],
+        "answer": "function",
+        "level": 1,
+      "hint": "Functions are a special type that can be checked directly with typeof."
+    },
+    {
+      "question": "Which method is used to extract a part of a string?",
+      "options": ["substring()", "slice()", "substr()", "<All of these>"],
+      "answer": "<All of these>",
+        "level": 2,
+      "hint": "These methods all serve similar purposes for string extraction with slight differences in parameters."
+    },
+    {
+      "question": "What is the output of console.log(0 == false)?",
+      "options": ["true", "false", "Error", "NaN"],
+        "answer": "true",
+        "level": 2,
+      "hint": "Zero is considered a 'falsy' value in JavaScript."
+    },
+    {
+      "question": "Which method filters array elements based on a provided function?",
+        "options": ["filter()", "map()", "reduce()", "forEach()"],
+        "answer": "filter()",
+        "level": 2,
+      "hint": "This method creates a new array with all elements that pass the test implemented by the provided function."
+    },
+    {
+      "question": "What is the output of console.log(parseInt('10.5'))?",
+      "options": ["10", "11", "10.5", "Error"],
+      "answer": "10",
+        "level": 2,
+      "hint": "parseInt() parses only the integer part of a number."
+    },
+    {
+      "question": "Which property returns the length of a string?",
+      "options": ["length", "size", "count", "len"],
+      "answer": "length",
+      "level": 1,
+      "hint": "This property is commonly used to determine the number of characters in a string."
+    },
+    {
+      "question": "What is the output of console.log([1, 2, 3].length)?",
+      "options": ["3", "undefined", "Error", "0"],
+        "answer": "3",
+      "level": 1,
+      "hint": "The length property of an array returns the number of elements."
+    },
+    {
+      "question": "Which statement is used to perform different actions based on different conditions?",
+      "options": ["if", "switch", "for", "while"],
+        "answer": "switch",
+        "level": 2,
+      "hint": "This statement is often used as an alternative to a long chain of if...else if statements."
+    },
+    {
+      "question": "What is the output of console.log(5 != '5')?",
+      "options": ["false", "true", "Error", "NaN"],
+      "answer": "false",
+      "level": 1,
+      "hint": "The '!=' operator performs type coercion, so the values are considered equal."
+    },
+    {
+      "question": "Which method converts all characters in a string to uppercase?",
+      "options": ["toUpperCase()", "toUpper()", "upperCase()", "makeUpper()"],
+      "answer": "toUpperCase()",
+      "level": 1,
+      "hint": "This string method returns a new string."
+    },
+    {
+      "question": "What is the output of console.log('hello'.charAt(0))?",
+      "options": ["h", "e", "l", "o"],
+      "answer": "h",
+        "level": 2,
+      "hint": "This method returns the character at the specified index in a string."
+    },
+    {
+      "question": "Which property returns the number of arguments passed to a function?",
+      "options": ["arguments.length", "arguments.count", "args.length", "params.length"],
+      "answer": "arguments.length",
+        "level": 3,
+      "hint": "The 'arguments' object is an Array-like object accessible inside functions."
+    },
+    {
+      "question": "What is the output of console.log(!!'hello')?",
+      "options": ["true", "false", "undefined", "Error"],
+      "answer": "true",
+        "level": 3,
+      "hint": "The double NOT operator (!!) is a common way to explicitly convert a value to a boolean."
+      },
+      {
+        "question": "Which method converts an array to a string?",
+        "options": ["toString()", "string()", "convert()", "join()"],
+        "answer": "toString()",
+        "level": 2,
+        "hint": "This array method creates a comma-separated string."
+      },
+      {
+        "question": "What is the output of '123'.toString()?",
+        "options": ["'123'", "123", "Error", "null"],
+        "answer": "'123'",
+        "level": 2,
+        "hint": "This method ensures a value is a string."
+      },
+      {
+        "question": "Which keyword defines an arrow function?",
+        "options": ["=>", "->", "function", "lambda"],
+        "answer": "=>",
+        "level": 3,
+        "hint": "This syntax creates a concise function expression."
+      },
+      {
+        "question": "What does the 'spread' operator do?",
+        "options": ["Expands arrays/objects", "Merges strings", "Defines class", "Throws error"],
+        "answer": "Expands arrays/objects",
+        "level": 3,
+      "hint": "This operator (...) unpacks iterables."
+    }
+  ]
+}

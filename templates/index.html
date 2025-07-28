@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Run for the Code</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div id="game">
+    <h1 class="animated-title">🏃‍♂️ Run for the Code</h1>
+    <div id="topic-select" class="topic-box">
+      <h2>Select a Quiz Topic</h2>
+      <div class="topic-button" onclick="startQuiz('html')">HTML</div>
+      <div class="topic-button" onclick="startQuiz('python')">Python</div>
+      <div class="topic-button" onclick="startQuiz('java')">Java</div>
+      <div class="topic-button" onclick="startQuiz('cpp')">C++</div>
+      <div class="topic-button" onclick="startQuiz('javascript')">JavaScript</div>
+      <div class="topic-button" onclick="startQuiz('react')">React</div>
+    </div>
+    <div id="quiz-box" class="question-box" style="display:none;">
+      <div id="level" class="fancy-level">Level 1</div>
+      <div id="score" class="fancy-score">Score: 0</div>
+      <div id="progress-bar-container"><div id="progress-bar"></div></div>
+      <div id="question">Loading question...</div>
+      <div id="options"></div>
+      <div class="quiz-actions">
+        <button id="skip-btn" onclick="skipQuestion()" style="margin:10px 10px 0 0;">Skip</button>
+        <button id="exit-btn" onclick="exitQuiz()" style="margin-top:10px;">Exit</button>
+      </div>
+    </div>
+    <div id="result"></div>
+    <div id="hint"></div>
+    <audio id="correctSound" src="https://assets.mixkit.co/sfx/download/mixkit-game-success-alert-2039.wav"></audio>
+    <audio id="wrongSound" src="https://assets.mixkit.co/sfx/download/mixkit-wrong-answer-fail-notification-946.wav"></audio>
+    <audio id="levelupSound" src="https://assets.mixkit.co/sfx/download/mixkit-arcade-retro-level-up-223.wav"></audio>
+  </div>
+  <script src="{{ url_for('static', filename='game.js') }}"></script>
+</body>
+</html> 
