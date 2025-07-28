@@ -1,0 +1,3016 @@
+{
+  "html": [
+    {
+      "question": "Which HTML tag defines the main content of a page?",
+      "options": ["<div>", "<main>", "<section>", "<body>"],
+      "answer": "<main>",
+      "level": 1,
+      "hint": "This tag is semantic and represents the primary content of the document."
+    },
+    {
+      "question": "Which tag is not semantic in HTML5?",
+      "options": ["<article>", "<nav>", "<footer>", "<div>"],
+      "answer": "<div>",
+      "level": 1,
+      "hint": "Semantic tags provide meaning to content, unlike generic containers."
+    },
+    {
+      "question": "What does the <meta> tag provide?",
+      "options": ["Metadata", "Script", "Image", "Table"],
+      "answer": "Metadata",
+      "level": 2,
+      "hint": "This tag provides information like character set or SEO details."
+    },
+    {
+      "question": "Which tag is used for internal CSS?",
+      "options": ["<css>", "<style>", "<script>", "<head>"],
+      "answer": "<style>",
+      "level": 2,
+      "hint": "This tag holds CSS rules within the HTML document."
+    },
+    {
+      "question": "Which attribute opens a link in a new tab?",
+      "options": ["newtab", "target=\"new\"", "target=\"_blank\"", "href-tab"],
+      "answer": "target=\"_blank\"",
+      "level": 3,
+      "hint": "This attribute uses the 'target' property with a specific value for new tabs."
+    },
+    {
+      "question": "Which tag creates a line break?",
+      "options": ["<br>", "<lb>", "<break>", "<newline>"],
+      "answer": "<br>",
+      "level": 1,
+      "hint": "This self-closing tag adds a single line break in text."
+    },
+    {
+      "question": "What is the correct HTML tag for a paragraph?",
+      "options": ["<p>", "<para>", "<text>", "<paragraph>"],
+      "answer": "<p>",
+      "level": 1,
+      "hint": "This tag is a single letter followed by angle brackets."
+    },
+    {
+      "question": "Which tag defines a table row?",
+      "options": ["<tr>", "<td>", "<th>", "<table>"],
+      "answer": "<tr>",
+      "level": 1,
+      "hint": "This tag groups cells in a horizontal line within a table."
+    },
+    {
+      "question": "What does the <title> tag do?",
+      "options": ["Sets page title", "Styles text", "Links CSS", "Adds image"],
+      "answer": "Sets page title",
+      "level": 1,
+      "hint": "This tag sets the text shown in the browser's title bar."
+    },
+    {
+      "question": "Which tag is used for an unordered list?",
+      "options": ["<ol>", "<ul>", "<li>", "<list>"],
+      "answer": "<ul>",
+      "level": 1,
+      "hint": "This tag creates a list with bullet points."
+    },
+    {
+      "question": "What is the root element of an HTML page?",
+      "options": ["<body>", "<html>", "<head>", "<root>"],
+      "answer": "<html>",
+      "level": 1,
+      "hint": "This tag wraps all other tags in an HTML document."
+    },
+    {
+      "question": "Which tag embeds an image?",
+      "options": ["<img>", "<picture>", "<image>", "<src>"],
+      "answer": "<img>",
+      "level": 1,
+      "hint": "This self-closing tag uses a 'src' attribute for images."
+    },
+    {
+      "question": "What does the <a> tag create?",
+      "options": ["Anchor link", "Image", "Button", "Form"],
+      "answer": "Anchor link",
+      "level": 1,
+      "hint": "This tag creates a clickable link with an 'href' attribute."
+    },
+    {
+      "question": "Which attribute specifies an image source?",
+      "options": ["href", "src", "alt", "link"],
+      "answer": "src",
+      "level": 1,
+      "hint": "This attribute points to the file path of an image."
+    },
+    {
+      "question": "Which tag defines a form?",
+      "options": ["<form>", "<input>", "<button>", "<field>"],
+      "answer": "<form>",
+      "level": 1,
+      "hint": "This tag wraps input fields for user data submission."
+    },
+    {
+      "question": "Which attribute provides alternate text for images?",
+      "options": ["alt", "title", "src", "desc"],
+      "answer": "alt",
+      "level": 2,
+      "hint": "This attribute improves accessibility for screen readers."
+    },
+    {
+      "question": "What is the default method for a form?",
+      "options": ["POST", "GET", "SEND", "SUBMIT"],
+      "answer": "GET",
+      "level": 2,
+      "hint": "This HTTP method appends data to the URL."
+    },
+    {
+      "question": "Which tag creates a numbered list?",
+      "options": ["<ul>", "<ol>", "<li>", "<nl>"],
+      "answer": "<ol>",
+      "level": 2,
+      "hint": "This tag creates a list with numbers or letters."
+    },
+    {
+      "question": "Which attribute links to an external CSS file?",
+      "options": ["src", "href", "link", "style"],
+      "answer": "href",
+      "level": 2,
+      "hint": "This attribute is used in a <link> tag for external styles."
+    },
+    {
+      "question": "What does the <header> tag represent?",
+      "options": ["Page footer", "Main content", "Navigation", "Introductory content"],
+      "answer": "Introductory content",
+      "level": 2,
+      "hint": "This semantic tag often contains logos or navigation."
+    },
+    {
+      "question": "Which tag defines a table header cell?",
+      "options": ["<td>", "<th>", "<tr>", "<table>"],
+      "answer": "<th>",
+      "level": 2,
+      "hint": "This tag is like <td> but for bolded header cells."
+    },
+    {
+      "question": "What does the <aside> tag represent?",
+      "options": ["Sidebar content", "Main content", "Footer", "Header"],
+      "answer": "Sidebar content",
+      "level": 2,
+      "hint": "This tag holds content tangentially related to the main content."
+    },
+    {
+      "question": "Which attribute specifies a form’s submission URL?",
+      "options": ["action", "method", "target", "submit"],
+      "answer": "action",
+      "level": 2,
+      "hint": "This attribute defines where form data is sent."
+    },
+    {
+      "question": "Which tag is used for inline CSS?",
+      "options": ["<style>", "<css>", "<inline>", "<span>"],
+      "answer": "<style>",
+      "level": 2,
+      "hint": "This tag can be used in the head or inline with a 'style' attribute."
+    },
+    {
+      "question": "What does the <nav> tag define?",
+      "options": ["Navigation links", "Main content", "Footer", "Header"],
+      "answer": "Navigation links",
+      "level": 2,
+      "hint": "This semantic tag groups menu or navigation links."
+    },
+    {
+      "question": "Which attribute disables an input field?",
+      "options": ["disabled", "readonly", "off", "locked"],
+      "answer": "disabled",
+      "level": 3,
+      "hint": "This attribute prevents user interaction with a form field."
+    },
+    {
+      "question": "What is the purpose of the <figure> tag?",
+      "options": ["Embeds images", "Groups related content", "Styles text", "Creates forms"],
+      "answer": "Groups related content",
+      "level": 3,
+      "hint": "This tag often pairs with <figcaption> for images or diagrams."
+    },
+    {
+      "question": "Which attribute specifies a character encoding?",
+      "options": ["charset", "encoding", "type", "format"],
+      "answer": "charset",
+      "level": 3,
+      "hint": "This attribute is used in a <meta> tag for encoding like UTF-8."
+    },
+    {
+      "question": "What does the <time> tag represent?",
+      "options": ["Date/time", "Timer", "Clock", "Schedule"],
+      "answer": "Date/time",
+      "level": 3,
+      "hint": "This semantic tag formats dates or times for accessibility."
+    },
+    {
+      "question": "Which tag embeds a video?",
+      "options": ["<video>", "<media>", "<movie>", "<clip>"],
+      "answer": "<video>",
+      "level": 3,
+      "hint": "This tag supports attributes like 'src' and 'controls' for videos."
+    },
+    {
+      "question": "Which attribute makes an input required?",
+      "options": ["required", "mandatory", "needed", "essential"],
+      "answer": "required",
+      "level": 3,
+      "hint": "This attribute ensures a form field must be filled before submission."
+    },
+    {
+      "question": "What does the <footer> tag typically contain?",
+      "options": ["Navigation", "Main content", "Contact info", "Header"],
+      "answer": "Contact info",
+      "level": 3,
+      "hint": "This semantic tag often includes copyright or contact details."
+    },
+    {
+      "question": "Which tag creates a dropdown menu?",
+      "options": ["<select>", "<dropdown>", "<menu>", "<option>"],
+      "answer": "<select>",
+      "level": 3,
+      "hint": "This tag works with <option> tags to create a dropdown."
+    },
+    {
+      "question": "Which attribute sets the maximum input length?",
+      "options": ["maxlength", "limit", "size", "max"],
+      "answer": "maxlength",
+      "level": 3,
+      "hint": "This attribute limits the number of characters in a text input."
+    },
+    {
+      "question": "What does the <section> tag define?",
+      "options": ["Thematic grouping", "Footer", "Header", "Navigation"],
+      "answer": "Thematic grouping",
+      "level": 3,
+      "hint": "This tag organizes content into distinct, related sections."
+    },
+    {
+      "question": "Which tag embeds audio?",
+      "options": ["<audio>", "<sound>", "<media>", "<track>"],
+      "answer": "<audio>",
+      "level": 3,
+      "hint": "This tag supports attributes like 'src' for sound files."
+    },
+    {
+      "question": "Which tag defines a list item?",
+      "options": ["<li>", "<ul>", "<ol>", "<item>"],
+      "answer": "<li>",
+      "level": 1,
+      "hint": "This tag is used inside <ul> or <ol> for individual items."
+    },
+    {
+      "question": "What does the <hr> tag create?",
+      "options": ["Horizontal rule", "Header", "Row", "Break"],
+      "answer": "Horizontal rule",
+      "level": 1,
+      "hint": "This self-closing tag adds a thematic break or line."
+    },
+    {
+      "question": "Which tag is used for bold text?",
+      "options": ["<bold>", "<b>", "<strong>", "<Both b and strong>"],
+      "answer": "<Both b and strong>",
+      "level": 1,
+      "hint": "These tags make text bold, but one is semantic."
+    },
+    {
+      "question": "Which tag creates a hyperlink?",
+      "options": ["<link>", "<a>", "<href>", "<url>"],
+      "answer": "<a>",
+      "level": 1,
+      "hint": "This tag uses 'href' to link to another page or resource."
+    },
+    {
+      "question": "What does the <head> tag contain?",
+      "options": ["Metadata", "Main content", "Footer", "Navigation"],
+      "answer": "Metadata",
+      "level": 1,
+      "hint": "This tag holds information like <title> and <meta> tags."
+    },
+    {
+      "question": "Which tag defines a table?",
+      "options": ["<table>", "<tab>", "<tr>", "<td>"],
+      "answer": "<table>",
+      "level": 1,
+      "hint": "This tag wraps rows and cells to create a table."
+    },
+    {
+      "question": "What is the purpose of the <em> tag?",
+      "options": ["Emphasis", "Bold", "Italic", "<Both Emphasis and Italic>"],
+      "answer": "<Both Emphasis and Italic>",
+      "level": 1,
+      "hint": "This semantic tag emphasizes text, often displayed as italic."
+    },
+    {
+      "question": "Which tag creates a button?",
+      "options": ["<button>", "<input>", "<click>", "<btn>"],
+      "answer": "<button>",
+      "level": 1,
+      "hint": "This tag creates a clickable element, often in forms."
+    },
+    {
+      "question": "What does the <div> tag do?",
+      "options": ["Groups content", "Creates link", "Embeds image", "Adds style"],
+      "answer": "Groups content",
+      "level": 1,
+      "hint": "This non-semantic tag is a container for other elements."
+    },
+    {
+      "question": "Which tag defines a heading?",
+      "options": ["<h1>", "<head>", "<header>", "<h>"],
+      "answer": "<h1>",
+      "level": 1,
+      "hint": "This tag is one of six levels for titles, starting with the largest."
+    },
+    {
+      "question": "Which attribute sets an element’s unique identifier?",
+      "options": ["id", "class", "name", "tag"],
+      "answer": "id",
+      "level": 2,
+      "hint": "This attribute ensures an element can be uniquely targeted by CSS or JS."
+    },
+    {
+      "question": "What does the <link> tag do?",
+      "options": ["Links external resources", "Creates hyperlink", "Embeds image", "Defines form"],
+      "answer": "Links external resources",
+      "level": 2,
+      "hint": "This tag is often used to connect CSS files to HTML."
+    },
+    {
+      "question": "Which tag is used for inline frames?",
+      "options": ["<iframe>", "<frame>", "<embed>", "<object>"],
+      "answer": "<iframe>",
+      "level": 2,
+      "hint": "This tag embeds external content like maps or videos."
+    },
+    {
+      "question": "What does the <caption> tag define?",
+      "options": ["Table caption", "Image caption", "Video title", "Form label"],
+      "answer": "Table caption",
+      "level": 2,
+      "hint": "This tag provides a title or description for a table."
+    },
+    {
+      "question": "Which attribute specifies a form input type?",
+      "options": ["type", "input", "method", "value"],
+      "answer": "type",
+      "level": 2,
+      "hint": "This attribute defines the kind of input, like text or checkbox."
+    },
+    {
+      "question": "What is the purpose of the <mark> tag?",
+      "options": ["Highlights text", "Bolds text", "Links text", "Embeds media"],
+      "answer": "Highlights text",
+      "level": 2,
+      "hint": "This tag visually emphasizes text, often with a background color."
+    },
+    {
+      "question": "Which tag defines a keyboard input?",
+      "options": ["<kbd>", "<key>", "<input>", "<code>"],
+      "answer": "<kbd>",
+      "level": 2,
+      "hint": "This tag represents user input, like Ctrl+C, in documentation."
+    },
+    {
+      "question": "What does the <abbr> tag represent?",
+      "options": ["Abbreviation", "Address", "Article", "Anchor"],
+      "answer": "Abbreviation",
+      "level": 2,
+      "hint": "This tag is used for acronyms or abbreviations with a 'title' attribute."
+    },
+    {
+      "question": "Which attribute sets the default value of an input?",
+      "options": ["value", "default", "placeholder", "text"],
+      "answer": "value",
+      "level": 2,
+      "hint": "This attribute pre-fills an input field with a default."
+    },
+    {
+      "question": "What does the <cite> tag indicate?",
+      "options": ["Citation", "Code", "Comment", "Caption"],
+      "answer": "Citation",
+      "level": 2,
+      "hint": "This tag references a source, like a book or article title."
+    },
+    {
+      "question": "Which tag defines a progress bar?",
+      "options": ["<progress>", "<meter>", "<bar>", "<status>"],
+      "answer": "<progress>",
+      "level": 3,
+      "hint": "This tag shows task completion, like a download bar."
+    },
+    {
+      "question": "What does the <details> tag do?",
+      "options": ["Collapsible content", "Form input", "Image embed", "Table row"],
+      "answer": "Collapsible content",
+      "level": 3,
+      "hint": "This tag creates an expandable section, often with <summary>."
+    },
+    {
+      "question": "Which attribute specifies a minimum input value?",
+      "options": ["min", "minimum", "low", "limit"],
+      "answer": "min",
+      "level": 3,
+      "hint": "This attribute sets the lowest allowed value for numeric inputs."
+    },
+    {
+      "question": "What is the purpose of the <summary> tag?",
+      "options": ["Collapsible heading", "Table summary", "Form label", "Image caption"],
+      "answer": "Collapsible heading",
+      "level": 3,
+      "hint": "This tag provides a title for a <details> element."
+    },
+    {
+      "question": "Which tag defines a dialog box?",
+      "options": ["<dialog>", "<popup>", "<modal>", "<box>"],
+      "answer": "<dialog>",
+      "level": 3,
+      "hint": "This tag creates a pop-up or modal with JavaScript support."
+    },
+    {
+      "question": "What does the <data> tag provide?",
+      "options": ["Machine-readable data", "Form input", "Image source", "Script link"],
+      "answer": "Machine-readable data",
+      "level": 3,
+      "hint": "This tag pairs content with a 'value' attribute for scripts."
+    },
+    {
+      "question": "Which attribute specifies an image’s width?",
+      "options": ["width", "size", "length", "dimension"],
+      "answer": "width",
+      "level": 3,
+      "hint": "This attribute sets the horizontal size of an image in pixels."
+    },
+    {
+      "question": "What does the <output> tag represent?",
+      "options": ["Form calculation result", "Console output", "Image render", "Table cell"],
+      "answer": "Form calculation result",
+      "level": 3,
+      "hint": "This tag displays computed results within a form."
+    },
+    {
+      "question": "Which tag defines a ruby annotation?",
+      "options": ["<ruby>", "<rt>", "<rp>", "<annot>"],
+      "answer": "<ruby>",
+      "level": 3,
+      "hint": "This tag is used for East Asian text annotations."
+    },
+    {
+      "question": "What does the <template> tag do?",
+      "options": ["Holds reusable content", "Embeds video", "Defines form", "Styles page"],
+      "answer": "Holds reusable content",
+      "level": 3,
+      "hint": "This tag stores content for JavaScript to clone later."
+    },
+    {
+      "question": "Which attribute makes a field read-only?",
+      "options": ["readonly", "disabled", "locked", "static"],
+      "answer": "readonly",
+      "level": 3,
+      "hint": "This attribute prevents editing but allows interaction."
+    },
+    {
+      "question": "What is the purpose of the <base> tag?",
+      "options": ["Base URL for links", "Main content", "Header", "Footer"],
+      "answer": "Base URL for links",
+      "level": 3,
+      "hint": "This tag sets a default URL for relative links."
+    },
+    {
+      "question": "Which tag defines a table data cell?",
+      "options": ["<td>", "<tr>", "<th>", "<table>"],
+      "answer": "<td>",
+      "level": 1,
+      "hint": "This tag holds content within a table row."
+    },
+    {
+      "question": "What does the <strong> tag indicate?",
+      "options": ["Strong importance", "Italic text", "Link", "Image"],
+      "answer": "Strong importance",
+      "level": 1,
+      "hint": "This semantic tag emphasizes text, often displayed as bold."
+    },
+    {
+      "question": "Which tag embeds an external resource?",
+      "options": ["<embed>", "<iframe>", "<object>", "<All of these>"],
+      "answer": "<All of these>",
+      "level": 2,
+      "hint": "These tags can embed content like multimedia or external pages."
+    },
+    {
+      "question": "What does the <bdi> tag do?",
+      "options": ["Isolates bidirectional text", "Bolds text", "Defines input", "Embeds image"],
+      "answer": "Isolates bidirectional text",
+      "level": 3,
+      "hint": "This tag handles text direction for languages like Arabic."
+    },
+    {
+      "question": "Which attribute sets a form’s submission method?",
+      "options": ["method", "action", "type", "submit"],
+      "answer": "method",
+      "level": 2,
+      "hint": "This attribute chooses between GET or POST for form submission."
+    },
+    {
+      "question": "What is the purpose of the <optgroup> tag?",
+      "options": ["Groups options in dropdown", "Creates form", "Embeds video", "Styles text"],
+      "answer": "Groups options in dropdown",
+      "level": 3,
+      "hint": "This tag organizes <option> tags in a <select> menu."
+    },
+    {
+      "question": "Which tag defines a superscript?",
+      "options": ["<sup>", "<sub>", "<super>", "<top>"],
+      "answer": "<sup>",
+      "level": 2,
+      "hint": "This tag raises text, like for exponents in math."
+    },
+    {
+      "question": "What does the <sub> tag define?",
+      "options": ["Subscript", "Superscript", "Small text", "Bold text"],
+      "answer": "Subscript",
+      "level": 2,
+      "hint": "This tag lowers text, like for chemical formulas."
+    },
+    {
+      "question": "Which attribute specifies a form’s target frame?",
+      "options": ["target", "frame", "window", "dest"],
+      "answer": "target",
+      "level": 3,
+      "hint": "This attribute defines where a form’s response is displayed."
+    },
+    {
+      "question": "What does the <meter> tag represent?",
+      "options": ["Measurement range", "Progress bar", "Form input", "Table row"],
+      "answer": "Measurement range",
+      "level": 3,
+      "hint": "This tag shows a value within a defined range, like a gauge."
+    },
+    {
+      "question": "Which tag defines a text track for media?",
+      "options": ["<track>", "<subtitle>", "<caption>", "<text>"],
+      "answer": "<track>",
+      "level": 3,
+      "hint": "This tag adds subtitles or captions to <video> or <audio>."
+    },
+    {
+      "question": "What is the purpose of the <var> tag?",
+      "options": ["Variable in expression", "Code snippet", "Comment", "Link"],
+      "answer": "Variable in expression",
+      "level": 2,
+      "hint": "This tag denotes a variable in math or programming contexts."
+    },
+    {
+      "question": "Which attribute sets an element’s language?",
+      "options": ["lang", "language", "locale", "dir"],
+      "answer": "lang",
+      "level": 3,
+      "hint": "This attribute specifies the language code, like 'en' for English."
+    },
+    {
+      "question": "What does the <del> tag indicate?",
+      "options": ["Deleted text", "Inserted text", "Bold text", "Code"],
+      "answer": "Deleted text",
+      "level": 2,
+      "hint": "This tag shows text that has been removed, often struck through."
+    },
+    {
+      "question": "Which tag defines inserted text?",
+      "options": ["<ins>", "<add>", "<new>", "<edit>"],
+      "answer": "<ins>",
+      "level": 2,
+      "hint": "This tag shows text added to a document, often underlined."
+    },
+    {
+      "question": "What is the purpose of the <samp> tag?",
+      "options": ["Sample output", "Code snippet", "Input field", "Image"],
+      "answer": "Sample output",
+      "level": 3,
+      "hint": "This tag displays example output from a program."
+    },
+    {
+      "question": "Which attribute specifies a form’s autocomplete?",
+      "options": ["autocomplete", "auto", "complete", "fill"],
+      "answer": "autocomplete",
+      "level": 3,
+      "hint": "This attribute controls whether browsers suggest form input values."
+    },
+    {
+      "question": "What does the <address> tag define?",
+      "options": ["Contact information", "Street address", "Email link", "Map location"],
+      "answer": "Contact information",
+      "level": 2,
+      "hint": "This tag provides contact details, like email or phone."
+    },
+    {
+      "question": "Which tag defines a blockquote?",
+      "options": ["<blockquote>", "<quote>", "<q>", "<Both blockquote and q>"],
+      "answer": "<Both blockquote and q>",
+      "level": 2,
+      "hint": "These tags format quoted text, one for blocks, one inline."
+    },
+    {
+      "question": "What does the <pre> tag do?",
+      "options": ["Preserves formatting", "Bolds text", "Embeds code", "Creates form"],
+      "answer": "Preserves formatting",
+      "level": 2,
+      "hint": "This tag keeps spaces and line breaks in text."
+    },
+    {
+      "question": "Which attribute specifies an image’s height?",
+      "options": ["height", "size", "length", "dimension"],
+      "answer": "height",
+      "level": 3,
+      "hint": "This attribute sets the vertical size of an image in pixels."
+    },
+    {
+      "question": "What does the <small> tag indicate?",
+      "options": ["Smaller text", "Bold text", "Italic text", "Code"],
+      "answer": "Smaller text",
+      "level": 2,
+      "hint": "This tag reduces text size for fine print or asides."
+    },
+    {
+      "question": "Which tag defines a definition list?",
+      "options": ["<dl>", "<ul>", "<ol>", "<list>"],
+      "answer": "<dl>",
+      "level": 3,
+      "hint": "This tag pairs terms with their descriptions."
+    },
+    {
+      "question": "What does the <dt> tag define?",
+      "options": ["Definition term", "Definition list", "Description", "Data"],
+      "answer": "Definition term",
+      "level": 3,
+      "hint": "This tag specifies a term in a <dl> list."
+    },
+    {
+      "question": "Which tag defines a description in a definition list?",
+      "options": ["<dd>", "<dt>", "<dl>", "<desc>"],
+      "answer": "<dd>",
+      "level": 3,
+      "hint": "This tag provides the explanation for a <dt> term."
+    },
+    {
+      "question": "What does the <code> tag represent?",
+      "options": ["Code snippet", "Variable", "Comment", "Output"],
+      "answer": "Code snippet",
+      "level": 2,
+      "hint": "This tag displays programming code in a monospaced font."
+    },
+    {
+      "question": "Which attribute specifies a button’s type?",
+      "options": ["type", "action", "method", "value"],
+      "answer": "type",
+      "level": 2,
+      "hint": "This attribute defines a button’s role, like 'submit' or 'reset'."
+    },
+    {
+      "question": "What does the <area> tag define?",
+      "options": ["Image map area", "Image source", "Form field", "Table cell"],
+      "answer": "Image map area",
+      "level": 3,
+      "hint": "This tag creates clickable regions in an image map."
+    },
+    {
+      "question": "Which tag defines a client-side script?",
+      "options": ["<script>", "<code>", "<js>", "<javascript>"],
+      "answer": "<script>",
+      "level": 2,
+      "hint": "This tag runs JavaScript code in an HTML document."
+    },
+    {
+      "question": "What does the <canvas> tag do?",
+      "options": ["Draws graphics", "Embeds video", "Creates form", "Styles page"],
+      "answer": "Draws graphics",
+      "level": 3,
+      "hint": "This tag is used with JavaScript for dynamic graphics."
+    },
+    {
+      "question": "Which attribute sets a form’s encoding type?",
+      "options": ["enctype", "encoding", "type", "format"],
+      "answer": "enctype",
+      "level": 3,
+      "hint": "This attribute specifies how form data is encoded for submission."
+    }
+  ],
+  "python": [
+    {
+      "question": "What is the output of print(2 ** 3)?",
+      "options": ["6", "8", "9", "5"],
+      "answer": "8",
+      "level": 1,
+      "hint": "The ** operator raises the first number to the power of the second."
+    },
+    {
+      "question": "What keyword is used to define a function?",
+      "options": ["func", "define", "def", "function"],
+      "answer": "def",
+      "level": 1,
+      "hint": "This keyword is followed by a function name and parentheses."
+    },
+    {
+      "question": "Which of these is a list?",
+      "options": ["{1,2}", "[1,2]", "(1,2)", "<1,2>"],
+      "answer": "[1,2]",
+      "level": 2,
+      "hint": "Lists use square brackets to hold elements."
+    },
+    {
+      "question": "What is the result of 10 // 3?",
+      "options": ["3", "3.3", "3.0", "Error"],
+      "answer": "3",
+      "level": 2,
+      "hint": "The // operator performs floor division, discarding decimals."
+    },
+    {
+      "question": "Which module is used for regular expressions?",
+      "options": ["os", "sys", "re", "regex"],
+      "answer": "re",
+      "level": 3,
+      "hint": "This module handles pattern matching for strings."
+    },
+    {
+      "question": "What is the output of print(5 + 3)?",
+      "options": ["8", "53", "15", "Error"],
+      "answer": "8",
+      "level": 1,
+      "hint": "The + operator adds numbers in Python."
+    },
+    {
+      "question": "Which keyword creates a loop?",
+      "options": ["for", "loop", "do", "run"],
+      "answer": "for",
+      "level": 1,
+      "hint": "This keyword iterates over a sequence like a list or range."
+    },
+    {
+      "question": "What is the type of '3.14'?",
+      "options": ["int", "float", "str", "bool"],
+      "answer": "str",
+      "level": 1,
+      "hint": "Quotes around a number make it a string."
+    },
+    {
+      "question": "Which symbol denotes a comment?",
+      "options": ["#", "//", "/*", "--"],
+      "answer": "#",
+      "level": 1,
+      "hint": "This symbol starts a single-line comment in Python."
+    },
+    {
+      "question": "What is used to indent code blocks?",
+      "options": ["Tabs", "Spaces", "Braces", "Parentheses"],
+      "answer": "Spaces",
+      "level": 1,
+      "hint": "Python typically uses four of these for indentation."
+    },
+    {
+      "question": "Which keyword checks conditions?",
+      "options": ["if", "check", "when", "test"],
+      "answer": "if",
+      "level": 1,
+      "hint": "This keyword evaluates a condition for branching."
+    },
+    {
+      "question": "What is the output of print(len('hello'))?",
+      "options": ["5", "4", "6", "Error"],
+      "answer": "5",
+      "level": 1,
+      "hint": "The len() function counts characters in a string."
+    },
+    {
+      "question": "Which type is mutable?",
+      "options": ["str", "tuple", "list", "int"],
+      "answer": "list",
+      "level": 1,
+      "hint": "This type allows elements to be changed after creation."
+    },
+    {
+      "question": "What does 'True' represent?",
+      "options": ["String", "Boolean", "Integer", "Float"],
+      "answer": "Boolean",
+      "level": 1,
+      "hint": "This value is used in logical operations."
+    },
+    {
+      "question": "Which operator checks equality?",
+      "options": ["=", "==", "===", ":="],
+      "answer": "==",
+      "level": 1,
+      "hint": "This operator compares two values for equality."
+    },
+    {
+      "question": "What is the output of print(10 % 3)?",
+      "options": ["1", "3", "0", "Error"],
+      "answer": "1",
+      "level": 2,
+      "hint": "The % operator returns the remainder of division."
+    },
+    {
+      "question": "Which keyword exits a loop?",
+      "options": ["break", "stop", "exit", "end"],
+      "answer": "break",
+      "level": 2,
+      "hint": "This keyword stops a loop entirely."
+    },
+    {
+      "question": "What does 'range(5)' generate?",
+      "options": ["0 to 4", "1 to 5", "0 to 5", "1 to 4"],
+      "answer": "0 to 4",
+      "level": 2,
+      "hint": "This function generates numbers starting from 0 up to but not including 5."
+    },
+    {
+      "question": "Which method converts a string to uppercase?",
+      "options": ["upper()", "toUpper()", "uppercase()", "up()"],
+      "answer": "upper()",
+      "level": 2,
+      "hint": "This string method changes all characters to uppercase."
+    },
+    {
+      "question": "What is the output of print([1,2,3][1])?",
+      "options": ["1", "2", "3", "Error"],
+      "answer": "2",
+      "level": 2,
+      "hint": "List indexing starts at 0, so [1] accesses the second element."
+    },
+    {
+      "question": "Which keyword defines a class?",
+      "options": ["class", "struct", "object", "type"],
+      "answer": "class",
+      "level": 2,
+      "hint": "This keyword creates a blueprint for objects."
+    },
+    {
+      "question": "What does 'None' represent?",
+      "options": ["Null value", "Zero", "Empty string", "False"],
+      "answer": "Null value",
+      "level": 2,
+      "hint": "This value indicates the absence of a value."
+    },
+    {
+      "question": "Which method adds an element to a list?",
+      "options": ["append()", "add()", "push()", "insert()"],
+      "answer": "append()",
+      "level": 2,
+      "hint": "This method adds an item to the end of a list."
+    },
+    {
+      "question": "What is the output of print('a' in 'cat')?",
+      "options": ["True", "False", "Error", "None"],
+      "answer": "True",
+      "level": 2,
+      "hint": "The 'in' operator checks if a character exists in a string."
+    },
+    {
+      "question": "Which module handles math operations?",
+      "options": ["math", "num", "calc", "arithmetic"],
+      "answer": "math",
+      "level": 2,
+      "hint": "This module provides functions like sqrt() and pi."
+    },
+    {
+      "question": "What does the 'try' keyword do?",
+      "options": ["Handles exceptions", "Defines function", "Creates loop", "Imports module"],
+      "answer": "Handles exceptions",
+      "level": 3,
+      "hint": "This keyword is paired with 'except' for error handling."
+    },
+    {
+      "question": "What is the output of print(list(range(2,5)))?",
+      "options": ["[2,3,4]", "[2,3,4,5]", "[1,2,3,4]", "Error"],
+      "answer": "[2,3,4]",
+      "level": 3,
+      "hint": "range(2,5) generates numbers from 2 up to but not including 5."
+    },
+    {
+      "question": "Which method removes an element from a list?",
+      "options": ["remove()", "delete()", "pop()", "<Both remove() and pop()>"],
+      "answer": "<Both remove() and pop()>",
+      "level": 3,
+      "hint": "One method removes by value, the other by index."
+    },
+    {
+      "question": "What does the 'lambda' keyword create?",
+      "options": ["Anonymous function", "Class", "Loop", "Module"],
+      "answer": "Anonymous function",
+      "level": 3,
+      "hint": "This keyword defines a short, nameless function."
+    },
+    {
+      "question": "Which module handles file operations?",
+      "options": ["os", "file", "io", "sys"],
+      "answer": "os",
+      "level": 3,
+      "hint": "This module provides functions like open() and remove()."
+    },
+    {
+      "question": "What is the output of print({1: 'one', 2: 'two'}[1])?",
+      "options": ["one", "two", "1", "Error"],
+      "answer": "one",
+      "level": 3,
+      "hint": "Dictionary access uses keys to retrieve values."
+    },
+    {
+      "question": "Which keyword raises an exception?",
+      "options": ["raise", "throw", "error", "exception"],
+      "answer": "raise",
+      "level": 3,
+      "hint": "This keyword triggers a custom error."
+    },
+    {
+      "question": "What does 'is' operator check?",
+      "options": ["Identity", "Equality", "Type", "Value"],
+      "answer": "Identity",
+      "level": 3,
+      "hint": "This operator checks if two objects are the same in memory."
+    },
+    {
+      "question": "Which method splits a string?",
+      "options": ["split()", "divide()", "slice()", "cut()"],
+      "answer": "split()",
+      "level": 3,
+      "hint": "This method breaks a string into a list based on a delimiter."
+    },
+    {
+      "question": "What is the output of print(tuple([1,2,3]))?",
+      "options": ["(1,2,3)", "[1,2,3]", "{1,2,3}", "Error"],
+      "answer": "(1,2,3)",
+      "level": 3,
+      "hint": "The tuple() function converts a list to an immutable sequence."
+    },
+    {
+      "question": "Which keyword imports a module?",
+      "options": ["import", "include", "require", "load"],
+      "answer": "import",
+      "level": 1,
+      "hint": "This keyword brings external modules into a script."
+    },
+    {
+      "question": "What is the output of print(3 * 'a')?",
+      "options": ["aaa", "3a", "Error", "a3"],
+      "answer": "aaa",
+      "level": 1,
+      "hint": "The * operator repeats a string a given number of times."
+    },
+    {
+      "question": "Which type is immutable?",
+      "options": ["list", "tuple", "dict", "set"],
+      "answer": "tuple",
+      "level": 1,
+      "hint": "This type cannot be modified after creation."
+    },
+    {
+      "question": "What does the 'else' keyword do?",
+      "options": ["Alternative condition", "Loop exit", "Function return", "Error handling"],
+      "answer": "Alternative condition",
+      "level": 1,
+      "hint": "This keyword follows an 'if' for alternative logic."
+    },
+    {
+      "question": "Which operator performs division?",
+      "options": ["/", "\\", "%", "*"],
+      "answer": "/",
+      "level": 1,
+      "hint": "This operator divides numbers, returning a float."
+    },
+    {
+      "question": "What is the output of print(bool(0))?",
+      "options": ["True", "False", "Error", "None"],
+      "answer": "False",
+      "level": 1,
+      "hint": "Zero is considered false in a boolean context."
+    },
+    {
+      "question": "Which keyword skips an iteration?",
+      "options": ["continue", "skip", "next", "pass"],
+      "answer": "continue",
+      "level": 2,
+      "hint": "This keyword moves to the next loop iteration."
+    },
+    {
+      "question": "What does the 'in' operator check?",
+      "options": ["Membership", "Identity", "Equality", "Type"],
+      "answer": "Membership",
+      "level": 2,
+      "hint": "This operator checks if an item exists in a sequence."
+    },
+    {
+      "question": "Which method joins a list of strings?",
+      "options": ["join()", "concat()", "merge()", "combine()"],
+      "answer": "join()",
+      "level": 2,
+      "hint": "This string method combines list elements with a separator."
+    },
+    {
+      "question": "What is the output of print(2 + 3 * 4)?",
+      "options": ["20", "14", "12", "Error"],
+      "answer": "14",
+      "level": 2,
+      "hint": "Operator precedence multiplies before adding."
+    },
+    {
+      "question": "Which module handles random numbers?",
+      "options": ["random", "rand", "num", "shuffle"],
+      "answer": "random",
+      "level": 2,
+      "hint": "This module provides functions like randint() and shuffle()."
+    },
+    {
+      "question": "What does the 'global' keyword do?",
+      "options": ["Accesses global variable", "Defines function", "Creates loop", "Imports module"],
+      "answer": "Accesses global variable",
+      "level": 2,
+      "hint": "This keyword allows modifying variables outside a function’s scope."
+    },
+    {
+      "question": "Which method reverses a list?",
+      "options": ["reverse()", "flip()", "invert()", "back()"],
+      "answer": "reverse()",
+      "level": 2,
+      "hint": "This method changes a list’s order in place."
+    },
+    {
+      "question": "What is the output of print('hello'[0])?",
+      "options": ["h", "e", "l", "Error"],
+      "answer": "h",
+      "level": 2,
+      "hint": "String indexing starts at 0 for the first character."
+    },
+    {
+      "question": "Which keyword defines a constant?",
+      "options": ["const", "final", "None", "No keyword"],
+      "answer": "No keyword",
+      "level": 2,
+      "hint": "Python uses naming conventions like ALL_CAPS for constants."
+    },
+    {
+      "question": "What does the 'set' type store?",
+      "options": ["Unique elements", "Ordered elements", "Key-value pairs", "Duplicates"],
+      "answer": "Unique elements",
+      "level": 2,
+      "hint": "This type automatically removes duplicate entries."
+    },
+    {
+      "question": "Which method checks if a string starts with a substring?",
+      "options": ["startswith()", "begins()", "first()", "start()"],
+      "answer": "startswith()",
+      "level": 3,
+      "hint": "This method checks the beginning of a string for a match."
+    },
+    {
+      "question": "What is the output of print({1,2,2,3})?",
+      "options": ["{1,2,3}", "{1,2,2,3}", "[1,2,3]", "Error"],
+      "answer": "{1,2,3}",
+      "level": 3,
+      "hint": "Sets only store unique values, removing duplicates."
+    },
+    {
+      "question": "Which module handles date and time?",
+      "options": ["datetime", "time", "date", "<Both datetime and time>"],
+      "answer": "<Both datetime and time>",
+      "level": 3,
+      "hint": "These modules handle timestamps and date formatting."
+    },
+    {
+      "question": "What does the 'yield' keyword do?",
+      "options": ["Creates generator", "Returns value", "Breaks loop", "Raises error"],
+      "answer": "Creates generator",
+      "level": 3,
+      "hint": "This keyword produces values one at a time in a function."
+    },
+    {
+      "question": "Which method sorts a list?",
+      "options": ["sort()", "order()", "arrange()", "align()"],
+      "answer": "sort()",
+      "level": 3,
+      "hint": "This method reorders a list in place."
+    },
+    {
+      "question": "What is the output of print(len({1: 'a', 2: 'b'}))?",
+      "options": ["2", "1", "3", "Error"],
+      "answer": "2",
+      "level": 3,
+      "hint": "The len() function counts key-value pairs in a dictionary."
+    },
+    {
+      "question": "Which keyword handles multiple exceptions?",
+      "options": ["except", "catch", "try", "handle"],
+      "answer": "except",
+      "level": 3,
+      "hint": "This keyword catches specific errors after a 'try' block."
+    },
+    {
+      "question": "What does the 'map' function do?",
+      "options": ["Applies function to items", "Filters items", "Reduces list", "Joins strings"],
+      "answer": "Applies function to items",
+      "level": 3,
+      "hint": "This function transforms each element in an iterable."
+    },
+    {
+      "question": "Which method removes duplicates from a list?",
+      "options": ["set()", "unique()", "distinct()", "No method"],
+      "answer": "set()",
+      "level": 3,
+      "hint": "Converting a list to this type removes duplicates."
+    },
+    {
+      "question": "What is the output of print('a' + 'b')?",
+      "options": ["ab", "a+b", "Error", "None"],
+      "answer": "ab",
+      "level": 1,
+      "hint": "The + operator concatenates strings in Python."
+    },
+    {
+      "question": "Which keyword defines a loop that runs indefinitely?",
+      "options": ["while", "for", "loop", "do"],
+      "answer": "while",
+      "level": 1,
+      "hint": "This keyword creates a loop based on a condition."
+    },
+    {
+      "question": "What is the type of [1,2,3]?",
+      "options": ["list", "tuple", "set", "dict"],
+      "answer": "list",
+      "level": 1,
+      "hint": "This type uses square brackets and is mutable."
+    },
+    {
+      "question": "Which operator performs exponentiation?",
+      "options": ["**", "^", "//", "*"],
+      "answer": "**",
+      "level": 1,
+      "hint": "This operator raises a number to a power."
+    },
+    {
+      "question": "What does the 'pass' keyword do?",
+      "options": ["Placeholder", "Breaks loop", "Skips iteration", "Returns value"],
+      "answer": "Placeholder",
+      "level": 1,
+      "hint": "This keyword is used as a no-op in code blocks."
+    },
+    {
+      "question": "What is the output of print(4 < 5)?",
+      "options": ["True", "False", "Error", "None"],
+      "answer": "True",
+      "level": 1,
+      "hint": "Comparison operators return a boolean value."
+    },
+    {
+      "question": "Which method converts a string to lowercase?",
+      "options": ["lower()", "toLower()", "lowercase()", "down()"],
+      "answer": "lower()",
+      "level": 2,
+      "hint": "This string method changes all characters to lowercase."
+    },
+    {
+      "question": "What does the 'not' operator do?",
+      "options": ["Logical negation", "Bitwise negation", "Subtraction", "Comparison"],
+      "answer": "Logical negation",
+      "level": 2,
+      "hint": "This operator inverts a boolean value."
+    },
+    {
+      "question": "Which method checks if a string is numeric?",
+      "options": ["isnumeric()", "isdigit()", "<Both isnumeric() and isdigit()>", "isnumber()"],
+      "answer": "<Both isnumeric() and isdigit()>",
+      "level": 2,
+      "hint": "These methods check if a string contains only digits."
+    },
+    {
+      "question": "What is the output of print([1,2] + [3,4])?",
+      "options": ["[1,2,3,4]", "[1,2][3,4]", "Error", "[4,6]"],
+      "answer": "[1,2,3,4]",
+      "level": 2,
+      "hint": "The + operator concatenates two lists."
+    },
+    {
+      "question": "Which module handles JSON data?",
+      "options": ["json", "data", "serialize", "parse"],
+      "answer": "json",
+      "level": 2,
+      "hint": "This module provides functions like dumps() and loads()."
+    },
+    {
+      "question": "What does the 'filter' function do?",
+      "options": ["Filters items", "Maps items", "Reduces list", "Joins strings"],
+      "answer": "Filters items",
+      "level": 3,
+      "hint": "This function selects items based on a condition."
+    },
+    {
+      "question": "Which method gets a dictionary’s keys?",
+      "options": ["keys()", "getkeys()", "items()", "values()"],
+      "answer": "keys()",
+      "level": 3,
+      "hint": "This method returns a view of dictionary keys."
+    },
+    {
+      "question": "What is the output of print(ord('A'))?",
+      "options": ["65", "97", "A", "Error"],
+      "answer": "65",
+      "level": 3,
+      "hint": "The ord() function returns the ASCII value of a character."
+    },
+    {
+      "question": "Which keyword defines a method in a class?",
+      "options": ["def", "method", "func", "class"],
+      "answer": "def",
+      "level": 2,
+      "hint": "This keyword is used for both functions and class methods."
+    },
+    {
+      "question": "What does the 'zip' function do?",
+      "options": ["Pairs iterables", "Splits lists", "Joins strings", "Sorts items"],
+      "answer": "Pairs iterables",
+      "level": 3,
+      "hint": "This function combines elements from multiple iterables."
+    },
+    {
+      "question": "Which method checks if a string ends with a substring?",
+      "options": ["endswith()", "last()", "finish()", "end()"],
+      "answer": "endswith()",
+      "level": 3,
+      "hint": "This method checks the end of a string for a match."
+    },
+    {
+      "question": "What is the output of print(chr(97))?",
+      "options": ["a", "A", "97", "Error"],
+      "answer": "a",
+      "level": 3,
+      "hint": "The chr() function converts an ASCII value to a character."
+    },
+    {
+      "question": "Which module handles CSV files?",
+      "options": ["csv", "file", "data", "io"],
+      "answer": "csv",
+      "level": 3,
+      "hint": "This module provides functions to read and write CSV data."
+    },
+    {
+      "question": "What does the 'super' keyword do?",
+      "options": ["Calls parent class", "Defines class", "Creates loop", "Imports module"],
+      "answer": "Calls parent class",
+      "level": 3,
+      "hint": "This keyword accesses methods from a parent class."
+    },
+    {
+      "question": "Which method gets a dictionary’s values?",
+      "options": ["values()", "getvalues()", "items()", "keys()"],
+      "answer": "values()",
+      "level": 3,
+      "hint": "This method returns a view of dictionary values."
+    },
+    {
+      "question": "What is the output of print(2 << 1)?",
+      "options": ["4", "2", "1", "Error"],
+      "answer": "4",
+      "level": 3,
+      "hint": "The << operator shifts bits left, doubling the value."
+    },
+    {
+      "question": "Which keyword defines a block of code?",
+      "options": ["def", "with", "try", "<All of these>"],
+      "answer": "<All of these>",
+      "level": 2,
+      "hint": "These keywords start indented code blocks."
+    },
+    {
+      "question": "What does the 'any' function do?",
+      "options": ["Checks if any true", "Checks if all true", "Sums items", "Joins strings"],
+      "answer": "Checks if any true",
+      "level": 3,
+      "hint": "This function returns True if any iterable element is True."
+    },
+    {
+      "question": "Which method replaces a substring?",
+      "options": ["replace()", "swap()", "sub()", "change()"],
+      "answer": "replace()",
+      "level": 2,
+      "hint": "This method swaps one substring for another."
+    },
+    {
+      "question": "What is the output of print(sorted([3,1,2]))?",
+      "options": ["[1,2,3]", "[3,2,1]", "[1,3,2]", "Error"],
+      "answer": "[1,2,3]",
+      "level": 3,
+      "hint": "The sorted() function returns a new sorted list."
+    },
+    {
+      "question": "Which keyword defines a context manager?",
+      "options": ["with", "use", "context", "manage"],
+      "answer": "with",
+      "level": 3,
+      "hint": "This keyword is used for resource management, like file handling."
+    },
+    {
+      "question": "What is the output of print(5 / 2)?",
+      "options": ["2.5", "2", "3", "Error"],
+      "answer": "2.5",
+      "level": 2,
+      "hint": "The / operator always returns a float in Python."
+    },
+    {
+      "question": "Which method checks if a string is empty?",
+      "options": ["is_empty()", "empty()", "No method", "len() == 0"],
+      "answer": "len() == 0",
+      "level": 2,
+      "hint": "Checking length is the standard way to test for an empty string."
+    },
+    {
+      "question": "What does the 'all' function do?",
+      "options": ["Checks if all true", "Checks if any true", "Sums items", "Joins strings"],
+      "answer": "Checks if all true",
+      "level": 3,
+      "hint": "This function returns True if every iterable element is True."
+    },
+    {
+      "question": "Which method removes the first occurrence in a list?",
+      "options": ["remove()", "pop()", "delete()", "discard()"],
+      "answer": "remove()",
+      "level": 3,
+      "hint": "This method deletes an element by its value."
+    },
+    {
+      "question": "What is the output of print('hello'[1:3])?",
+      "options": ["el", "he", "ll", "Error"],
+      "answer": "el",
+      "level": 2,
+      "hint": "String slicing uses start:end to extract characters."
+    },
+    {
+      "question": "Which module handles command-line arguments?",
+      "options": ["sys", "os", "arg", "cmd"],
+      "answer": "sys",
+      "level": 3,
+      "hint": "This module provides access to argv for command-line inputs."
+    },
+    {
+      "question": "What does the 'elif' keyword do?",
+      "options": ["Else if condition", "Loop condition", "Function return", "Error handling"],
+      "answer": "Else if condition",
+      "level": 2,
+      "hint": "This keyword adds additional conditions after an 'if'."
+    },
+    {
+      "question": "Which method clears a list?",
+      "options": ["clear()", "empty()", "delete()", "remove()"],
+      "answer": "clear()",
+      "level": 3,
+      "hint": "This method removes all elements from a list."
+    },
+    {
+      "question": "What is the output of print(2 and 3)?",
+      "options": ["3", "2", "True", "False"],
+      "answer": "3",
+      "level": 3,
+      "hint": "The 'and' operator returns the last evaluated value if both are true."
+    },
+    {
+      "question": "Which method counts occurrences in a list?",
+      "options": ["count()", "len()", "size()", "occur()"],
+      "answer": "count()",
+      "level": 2,
+      "hint": "This method returns how many times an item appears."
+    },
+    {
+      "question": "What does the 'nonlocal' keyword do?",
+      "options": ["Accesses outer scope", "Defines global", "Creates loop", "Imports module"],
+      "answer": "Accesses outer scope",
+      "level": 3,
+      "hint": "This keyword modifies variables in an enclosing function."
+    }
+  ],
+      {
+  "java": [
+    {
+      "question": "Which keyword is used to create a class?",
+      "options": ["function", "define", "class", "new"],
+      "answer": "class",
+      "level": 1,
+      "hint": "This keyword defines a blueprint for objects."
+    },
+    {
+      "question": "Which method is entry point of Java app?",
+      "options": ["start()", "init()", "main()", "run()"],
+      "answer": "main()",
+      "level": 1,
+      "hint": "This method is called when a Java program starts."
+    },
+    {
+      "question": "Which is not a primitive type?",
+      "options": ["int", "boolean", "String", "double"],
+      "answer": "String",
+      "level": 2,
+      "hint": "Primitive types are basic data types, not objects."
+    },
+    {
+      "question": "How do you end a statement?",
+      "options": [":", ".", ",", ";"],
+      "answer": ";",
+      "level": 2,
+      "hint": "This symbol marks the end of a line of code."
+    },
+    {
+      "question": "How to print to console?",
+      "options": ["Console.log()", "System.out.println()", "echo()", "write()"],
+      "answer": "System.out.println()",
+      "level": 3,
+      "hint": "This method belongs to the System class for output."
+    },
+    {
+      "question": "Which keyword declares a variable?",
+      "options": ["var", "int", "define", "let"],
+      "answer": "int",
+      "level": 1,
+      "hint": "This keyword specifies an integer variable."
+    },
+    {
+      "question": "What is the default value of int?",
+      "options": ["0", "null", "false", "undefined"],
+      "answer": "0",
+      "level": 1,
+      "hint": "Primitive types have a default value when uninitialized."
+    },
+    {
+      "question": "Which keyword creates a loop?",
+      "options": ["for", "loop", "do", "run"],
+      "answer": "for",
+      "level": 1,
+      "hint": "This keyword iterates over a range or collection."
+    },
+    {
+      "question": "What does the 'public' keyword mean?",
+      "options": ["Accessible everywhere", "Private access", "Class definition", "Method return"],
+      "answer": "Accessible everywhere",
+      "level": 1,
+      "hint": "This access modifier allows unrestricted access."
+    },
+    {
+      "question": "Which symbol denotes a comment?",
+      "options": ["//", "#", "--", "/*"],
+      "answer": "//",
+      "level": 1,
+      "hint": "This symbol starts a single-line comment."
+    },
+    {
+      "question": "Which type is used for decimals?",
+      "options": ["float", "int", "char", "boolean"],
+      "answer": "float",
+      "level": 1,
+      "hint": "This primitive type handles decimal numbers."
+    },
+    {
+      "question": "What is the output of 5 + 3 in Java?",
+      "options": ["8", "53", "15", "Error"],
+      "answer": "8",
+      "level": 1,
+      "hint": "The + operator adds numbers, not strings."
+    },
+    {
+      "question": "Which keyword checks conditions?",
+      "options": ["if", "check", "when", "test"],
+      "answer": "if",
+      "level": 1,
+      "hint": "This keyword evaluates a condition for branching."
+    },
+    {
+      "question": "What is the type of 'true'?",
+      "options": ["boolean", "int", "String", "float"],
+      "answer": "boolean",
+      "level": 1,
+      "hint": "This type represents true or false values."
+    },
+    {
+      "question": "Which operator checks equality?",
+      "options": ["=", "==", "===", ":="],
+      "answer": "==",
+      "level": 1,
+      "hint": "This operator compares values for equality."
+    },
+    {
+      "question": "What does the 'break' keyword do?",
+      "options": ["Exits loop", "Skips iteration", "Returns value", "Throws error"],
+      "answer": "Exits loop",
+      "level": 2,
+      "hint": "This keyword stops a loop entirely."
+    },
+    {
+      "question": "Which keyword defines a constant?",
+      "options": ["final", "const", "static", "fixed"],
+      "answer": "final",
+      "level": 2,
+      "hint": "This keyword prevents a variable’s value from changing."
+    },
+    {
+      "question": "What is the output of 10 % 3?",
+      "options": ["1", "3", "0", "Error"],
+      "answer": "1",
+      "level": 2,
+      "hint": "The % operator returns the remainder of division."
+    },
+    {
+      "question": "Which class is used for strings?",
+      "options": ["String", "Str", "Text", "Char"],
+      "answer": "String",
+      "level": 2,
+      "hint": "This class handles text data in Java."
+    },
+    {
+      "question": "What does the 'this' keyword refer to?",
+      "options": ["Current object", "Parent class", "Method", "Variable"],
+      "answer": "Current object",
+      "level": 2,
+      "hint": "This keyword points to the current instance in a class."
+    },
+    {
+      "question": "Which keyword creates an object?",
+      "options": ["new", "create", "object", "instance"],
+      "answer": "new",
+      "level": 2,
+      "hint": "This keyword allocates memory for a new object."
+    },
+    {
+      "question": "What is the output of 'hello'.length()?",
+      "options": ["5", "4", "6", "Error"],
+      "answer": "5",
+      "level": 2,
+      "hint": "This String method counts characters."
+    },
+    {
+      "question": "Which keyword extends a class?",
+      "options": ["extends", "implements", "inherits", "super"],
+      "answer": "extends",
+      "level": 2,
+      "hint": "This keyword enables class inheritance."
+    },
+    {
+      "question": "What does the 'static' keyword mean?",
+      "options": ["Class-level member", "Instance member", "Private access", "Constant"],
+      "answer": "Class-level member",
+      "level": 2,
+      "hint": "This keyword makes a member belong to the class, not instances."
+    },
+    {
+      "question": "Which package contains Scanner?",
+      "options": ["java.util", "java.io", "java.lang", "java.net"],
+      "answer": "java.util",
+      "level": 2,
+      "hint": "This package includes utilities like Scanner for input."
+    },
+    {
+      "question": "Which keyword handles exceptions?",
+      "options": ["try", "catch", "throw", "<All of these>"],
+      "answer": "<All of these>",
+      "level": 3,
+      "hint": "These keywords work together for error handling."
+    },
+    {
+      "question": "What does the 'super' keyword do?",
+      "options": ["Calls parent class", "Creates object", "Defines method", "Exits loop"],
+      "answer": "Calls parent class",
+      "level": 3,
+      "hint": "This keyword accesses parent class methods or constructors."
+    },
+    {
+      "question": "Which method converts a string to uppercase?",
+      "options": ["toUpperCase()", "upper()", "toUpper()", "uppercase()"],
+      "answer": "toUpperCase()",
+      "level": 3,
+      "hint": "This String method changes all characters to uppercase."
+    },
+    {
+      "question": "What is the output of 2 + 3 * 4?",
+      "options": ["14", "20", "12", "Error"],
+      "answer": "14",
+      "level": 3,
+      "hint": "Operator precedence multiplies before adding."
+    },
+    {
+      "question": "Which keyword implements an interface?",
+      "options": ["implements", "extends", "interface", "uses"],
+      "answer": "implements",
+      "level": 3,
+      "hint": "This keyword connects a class to an interface."
+    },
+    {
+      "question": "What does the 'throw' keyword do?",
+      "options": ["Throws exception", "Catches error", "Defines loop", "Returns value"],
+      "answer": "Throws exception",
+      "level": 3,
+      "hint": "This keyword triggers a custom error."
+    },
+    {
+      "question": "Which class handles arrays?",
+      "options": ["Arrays", "Array", "List", "Collection"],
+      "answer": "Arrays",
+      "level": 3,
+      "hint": "This utility class provides methods like sort() for arrays."
+    },
+    {
+      "question": "What is the output of 'abc'.charAt(1)?",
+      "options": ["b", "a", "c", "Error"],
+      "answer": "b",
+      "level": 3,
+      "hint": "This String method accesses a character by index."
+    },
+    {
+      "question": "Which keyword defines an interface?",
+      "options": ["interface", "class", "abstract", "type"],
+      "answer": "interface",
+      "level": 3,
+      "hint": "This keyword defines a contract for classes to implement."
+    },
+    {
+      "question": "What does the 'instanceof' operator check?",
+      "options": ["Type", "Value", "Equality", "Reference"],
+      "answer": "Type",
+      "level": 3,
+      "hint": "This operator verifies an object’s class or interface."
+    },
+    {
+      "question": "Which type is immutable?",
+      "options": ["String", "ArrayList", "StringBuilder", "HashMap"],
+      "answer": "String",
+      "level": 1,
+      "hint": "This type cannot be modified after creation."
+    },
+    {
+      "question": "What is the default value of boolean?",
+      "options": ["false", "true", "null", "0"],
+      "answer": "false",
+      "level": 1,
+      "hint": "This is the default for uninitialized boolean variables."
+    },
+    {
+      "question": "Which keyword skips an iteration?",
+      "options": ["continue", "skip", "next", "pass"],
+      "answer": "continue",
+      "level": 1,
+      "hint": "This keyword moves to the next loop iteration."
+    },
+    {
+      "question": "What does the 'void' keyword mean?",
+      "options": ["No return value", "Empty class", "Null value", "Private method"],
+      "answer": "No return value",
+      "level": 1,
+      "hint": "This keyword indicates a method returns nothing."
+    },
+    {
+      "question": "Which operator performs division?",
+      "options": ["/", "\\", "%", "*"],
+      "answer": "/",
+      "level": 1,
+      "hint": "This operator divides numbers, returning a quotient."
+    },
+    {
+      "question": "What is the output of 3 < 5?",
+      "options": ["true", "false", "Error", "null"],
+      "answer": "true",
+      "level": 1,
+      "hint": "Comparison operators return a boolean value."
+    },
+    {
+      "question": "Which keyword defines a method?",
+      "options": ["void", "function", "method", "<No keyword>"],
+      "answer": "<No keyword>",
+      "level": 2,
+      "hint": "Methods are defined by their return type and name."
+    },
+    {
+      "question": "What does the 'protected' keyword mean?",
+      "options": ["Package and subclass access", "Public access", "Private access", "Static access"],
+      "answer": "Package and subclass access",
+      "level": 2,
+      "hint": "This access modifier allows access within the same package or subclasses."
+    },
+    {
+      "question": "Which method checks string equality?",
+      "options": ["equals()", "==", "compare()", "isEqual()"],
+      "answer": "equals()",
+      "level": 2,
+      "hint": "This String method compares content, not references."
+    },
+    {
+      "question": "What is the output of 10 / 3?",
+      "options": ["3", "3.3", "3.0", "Error"],
+      "answer": "3",
+      "level": 2,
+      "hint": "Integer division in Java discards the decimal part."
+    },
+    {
+      "question": "Which package contains ArrayList?",
+      "options": ["java.util", "java.io", "java.lang", "java.net"],
+      "answer": "java.util",
+      "level": 2,
+      "hint": "This package includes collection classes like ArrayList."
+    },
+    {
+      "question": "What does the 'null' keyword represent?",
+      "options": ["No reference", "Zero", "False", "Empty string"],
+      "answer": "No reference",
+      "level": 2,
+      "hint": "This value indicates an object reference points to nothing."
+    },
+    {
+      "question": "Which method splits a string?",
+      "options": ["split()", "divide()", "slice()", "cut()"],
+      "answer": "split()",
+      "level": 2,
+      "hint": "This String method breaks a string into an array."
+    },
+    {
+      "question": "What does the 'private' keyword mean?",
+      "options": ["Class-only access", "Public access", "Package access", "Subclass access"],
+      "answer": "Class-only access",
+      "level": 2,
+      "hint": "This access modifier restricts access to the defining class."
+    },
+    {
+      "question": "Which keyword defines an abstract class?",
+      "options": ["abstract", "interface", "class", "extends"],
+      "answer": "abstract",
+      "level": 2,
+      "hint": "This keyword prevents instantiation of a class."
+    },
+    {
+      "question": "What is the output of 'abc'.substring(1, 2)?",
+      "options": ["b", "a", "ab", "Error"],
+      "answer": "b",
+      "level": 3,
+      "hint": "This String method extracts characters from start to end-1."
+    },
+    {
+      "question": "Which class handles file operations?",
+      "options": ["File", "Stream", "Reader", "Writer"],
+      "answer": "File",
+      "level": 3,
+      "hint": "This class manages file and directory operations."
+    },
+    {
+      "question": "What does the 'synchronized' keyword do?",
+      "options": ["Thread safety", "Method override", "Class extension", "Error handling"],
+      "answer": "Thread safety",
+      "level": 3,
+      "hint": "This keyword prevents concurrent access to a block."
+    },
+    {
+      "question": "Which method converts a string to lowercase?",
+      "options": ["toLowerCase()", "lower()", "toLower()", "lowercase()"],
+      "answer": "toLowerCase()",
+      "level": 3,
+      "hint": "This String method changes all characters to lowercase."
+    },
+    {
+      "question": "What is the output of 1 << 2?",
+      "options": ["4", "2", "8", "Error"],
+      "answer": "4",
+      "level": 3,
+      "hint": "The << operator shifts bits left, multiplying by 2 per shift."
+    },
+    {
+      "question": "Which keyword defines a package?",
+      "options": ["package", "namespace", "module", "import"],
+      "answer": "package",
+      "level": 2,
+      "hint": "This keyword organizes classes into a namespace."
+    },
+    {
+      "question": "What does the 'volatile' keyword do?",
+      "options": ["Ensures visibility", "Constant value", "Static member", "Private access"],
+      "answer": "Ensures visibility",
+      "level": 3,
+      "hint": "This keyword ensures thread-safe variable access."
+    },
+    {
+      "question": "Which method checks if a string starts with a prefix?",
+      "options": ["startsWith()", "beginsWith()", "start()", "prefix()"],
+      "answer": "startsWith()",
+      "level": 3,
+      "hint": "This String method checks the beginning of a string."
+    },
+    {
+      "question": "What is the output of 'hello'.indexOf('l')?",
+      "options": ["2", "1", "0", "Error"],
+      "answer": "2",
+      "level": 3,
+      "hint": "This String method returns the first occurrence’s index."
+    },
+    {
+      "question": "Which class handles hash tables?",
+      "options": ["HashMap", "ArrayList", "LinkedList", "Set"],
+      "answer": "HashMap",
+      "level": 3,
+      "hint": "This class stores key-value pairs with fast lookup."
+    },
+    {
+      "question": "What does the 'transient' keyword do?",
+      "options": ["Skips serialization", "Static member", "Constant value", "Thread safety"],
+      "answer": "Skips serialization",
+      "level": 3,
+      "hint": "This keyword excludes fields from serialization."
+    },
+    {
+      "question": "Which method concatenates strings?",
+      "options": ["concat()", "join()", "append()", "merge()"],
+      "answer": "concat()",
+      "level": 3,
+      "hint": "This String method combines two strings."
+    },
+    {
+      "question": "What is the output of 5 / 2.0?",
+      "options": ["2.5", "2", "3", "Error"],
+      "answer": "2.5",
+      "level": 2,
+      "hint": "Division with a double returns a double result."
+    },
+    {
+      "question": "Which keyword imports a package?",
+      "options": ["import", "include", "require", "use"],
+      "answer": "import",
+      "level": 2,
+      "hint": "This keyword brings external classes into a file."
+    },
+    {
+      "question": "What does the 'enum' keyword define?",
+      "options": ["Fixed set of constants", "Class", "Interface", "Method"],
+      "answer": "Fixed set of constants",
+      "level": 3,
+      "hint": "This keyword creates a type with predefined values."
+    },
+    {
+      "question": "Which method checks if a string is empty?",
+      "options": ["isEmpty()", "empty()", "length() == 0", "<Both isEmpty() and length() == 0>"],
+      "answer": "<Both isEmpty() and length() == 0>",
+      "level": 2,
+      "hint": "These methods check if a string has no characters."
+    },
+    {
+      "question": "What does the 'assert' keyword do?",
+      "options": ["Tests condition", "Throws error", "Defines loop", "Returns value"],
+      "answer": "Tests condition",
+      "level": 3,
+      "hint": "This keyword checks assumptions during debugging."
+    },
+    {
+      "question": "Which class handles lists?",
+      "options": ["ArrayList", "HashMap", "String", "File"],
+      "answer": "ArrayList",
+      "level": 2,
+      "hint": "This class provides a dynamic array in Java."
+    },
+    {
+      "question": "What is the output of 'abc'.replace('b', 'd')?",
+      "options": ["adc", "abc", "bcd", "Error"],
+      "answer": "adc",
+      "level": 3,
+      "hint": "This String method replaces one character with another."
+    },
+    {
+      "question": "Which keyword defines a generic type?",
+      "options": ["<T>", "generic", "type", "class"],
+      "answer": "<T>",
+      "level": 3,
+      "hint": "This placeholder is used in angle brackets for generics."
+    },
+    {
+      "question": "What does the 'default' keyword do in a switch?",
+      "options": ["Handles unmatched cases", "Sets default value", "Breaks loop", "Throws error"],
+      "answer": "Handles unmatched cases",
+      "level": 2,
+      "hint": "This keyword catches cases not covered by case labels."
+    },
+    {
+      "question": "Which method gets array length?",
+      "options": ["length", "size()", "count()", "getLength()"],
+      "answer": "length",
+      "level": 2,
+      "hint": "This field returns the size of an array."
+    },
+    {
+      "question": "What does the 'try-with-resources' do?",
+      "options": ["Auto-closes resources", "Catches errors", "Defines loop", "Imports package"],
+      "answer": "Auto-closes resources",
+      "level": 3,
+      "hint": "This statement ensures resources like files are closed."
+    },
+    {
+      "question": "Which class handles dates?",
+      "options": ["LocalDate", "DateTime", "Calendar", "<Both LocalDate and Calendar>"],
+      "answer": "<Both LocalDate and Calendar>",
+      "level": 3,
+      "hint": "These classes manage date and time operations."
+    },
+    {
+      "question": "What is the output of '123'.valueOf(123)?",
+      "options": ["'123'", "123", "Error", "null"],
+      "answer": "'123'",
+      "level": 3,
+      "hint": "This String method converts a number to a string."
+    },
+    {
+      "question": "Which keyword defines a method override?",
+      "options": ["@Override", "override", "super", "extend"],
+      "answer": "@Override",
+      "level": 3,
+      "hint": "This annotation ensures a method overrides a parent’s."
+    },
+    {
+      "question": "What does the 'strictfp' keyword do?",
+      "options": ["Ensures floating-point precision", "Static method", "Private access", "Thread safety"],
+      "answer": "Ensures floating-point precision",
+      "level": 3,
+      "hint": "This keyword standardizes floating-point calculations."
+    },
+    {
+      "question": "Which method checks if a string ends with a suffix?",
+      "options": ["endsWith()", "last()", "suffix()", "end()"],
+      "answer": "endsWith()",
+      "level": 3,
+      "hint": "This String method checks the end of a string."
+    },
+    {
+      "question": "What is the output of 2 & 3?",
+      "options": ["2", "3", "0", "Error"],
+      "answer": "2",
+      "level": 3,
+      "hint": "The & operator performs a bitwise AND."
+    },
+    {
+      "question": "Which class handles sets?",
+      "options": ["HashSet", "ArrayList", "HashMap", "LinkedList"],
+      "answer": "HashSet",
+      "level": 3,
+      "hint": "This class stores unique elements with no order."
+    },
+    {
+      "question": "What does the 'native' keyword do?",
+      "options": ["Links to native code", "Static method", "Constant value", "Thread safety"],
+      "answer": "Links to native code",
+      "level": 3,
+      "hint": "This keyword connects Java to non-Java code."
+    },
+    {
+      "question": "Which method trims whitespace?",
+      "options": ["trim()", "strip()", "clean()", "<Both trim() and strip()>"],
+      "answer": "<Both trim() and strip()>",
+      "level": 3,
+      "hint": "These String methods remove leading and trailing spaces."
+    },
+    {
+      "question": "What is the output of 'abc'.toCharArray().length?",
+      "options": ["3", "2", "4", "Error"],
+      "answer": "3",
+      "level": 3,
+      "hint": "This String method converts to an array, then length is checked."
+    },
+    {
+      "question": "Which keyword defines a switch statement?",
+      "options": ["switch", "case", "select", "branch"],
+      "answer": "switch",
+      "level": 2,
+      "hint": "This keyword evaluates a value against multiple cases."
+    }
+  ],
+  "cpp": [
+    {
+      "question": "Which keyword declares a variable?",
+      "options": ["var", "int", "define", "let"],
+      "answer": "int",
+      "level": 1,
+      "hint": "This keyword specifies an integer variable."
+    },
+    {
+      "question": "What is the output of cout << 5 + 3?",
+      "options": ["8", "53", "15", "Error"],
+      "answer": "8",
+      "level": 1,
+      "hint": "The + operator adds numbers, and cout prints the result."
+    },
+    {
+      "question": "Which header is used for input/output?",
+      "options": ["<iostream>", "<stdio>", "<input>", "<io>"],
+      "answer": "<iostream>",
+      "level": 2,
+      "hint": "This header includes cout and cin for console operations."
+    },
+    {
+      "question": "What is the default value of int?",
+      "options": ["0", "undefined", "null", "false"],
+      "answer": "undefined",
+      "level": 2,
+      "hint": "Uninitialized variables in C++ have unpredictable values."
+    },
+    {
+      "question": "Which operator accesses a class member?",
+      "options": [".", "->", "::", "<Both . and ->>"],
+      "answer": "<Both . and ->>",
+      "level": 3,
+      "hint": "One is for objects, the other for pointers."
+    },
+    {
+      "question": "Which keyword creates a loop?",
+      "options": ["for", "loop", "do", "run"],
+      "answer": "for",
+      "level": 1,
+      "hint": "This keyword iterates over a range or condition."
+    },
+    {
+      "question": "What does the 'const' keyword do?",
+      "options": ["Constant value", "Variable type", "Class definition", "Loop control"],
+      "answer": "Constant value",
+      "level": 1,
+      "hint": "This keyword prevents a variable’s value from changing."
+    },
+    {
+      "question": "Which symbol denotes a comment?",
+      "options": ["//", "#", "--", "<All of these>"],
+      "answer": "//",
+      "level": 1,
+      "hint": "This symbol starts a single-line comment."
+    },
+    {
+      "question": "What is the type of 'true'?",
+      "options": ["bool", "int", "char", "float"],
+      "answer": "bool",
+      "level": 1,
+      "hint": "This type represents true or false values."
+    },
+    {
+      "question": "Which operator checks equality?",
+      "options": ["=", "==", "===", ":="],
+      "answer": "==",
+      "level": 1,
+      "hint": "This operator compares two values for equality."
+    },
+    {
+      "question": "What is the output of 10 % 3?",
+      "options": ["1", "3", "0", "Error"],
+      "answer": "1",
+      "level": 1,
+      "hint": "The % operator returns the remainder of division."
+    },
+    {
+      "question": "Which keyword defines a class?",
+      "options": ["class", "struct", "object", "<Both class and struct>"],
+      "answer": "<Both class and struct>",
+      "level": 2,
+      "hint": "These keywords define user-defined types."
+    },
+    {
+      "question": "What does the 'new' keyword do?",
+      "options": ["Allocates memory", "Creates class", "Defines loop", "Imports library"],
+      "answer": "Allocates memory",
+      "level": 2,
+      "hint": "This keyword dynamically allocates memory for objects."
+    },
+    {
+      "question": "Which header defines string?",
+      "options": ["<string>", "<cstring>", "<str>", "<Both string and cstring>"],
+      "answer": "<Both string and cstring>",
+      "level": 2,
+      "hint": "One is for C++ strings, the other for C-style strings."
+    },
+    {
+      "question": "What does the 'delete' keyword do?",
+      "options": ["Frees memory", "Removes variable", "Ends loop", "Throws error"],
+      "answer": "Frees memory",
+      "level": 2,
+      "hint": "This keyword deallocates dynamically allocated memory."
+    },
+    {
+      "question": "Which keyword checks conditions?",
+      "options": ["if", "check", "when", "test"],
+      "answer": "if",
+      "level": 1,
+      "hint": "This keyword evaluates a condition for branching."
+    },
+    {
+      "question": "What is the output of 2 + 3 * 4?",
+      "options": ["14", "20", "12", "Error"],
+      "answer": "14",
+      "level": 2,
+      "hint": "Operator precedence multiplies before adding."
+    },
+    {
+      "question": "Which keyword defines a namespace?",
+      "options": ["namespace", "package", "module", "scope"],
+      "answer": "namespace",
+      "level": 2,
+      "hint": "This keyword organizes code to avoid name conflicts."
+    },
+    {
+      "question": "What does the 'public' keyword mean?",
+      "options": ["Accessible everywhere", "Private access", "Class definition", "Constant"],
+      "answer": "Accessible everywhere",
+      "level": 2,
+      "hint": "This access modifier allows unrestricted access."
+    },
+    {
+      "question": "Which type is used for decimals?",
+      "options": ["float", "int", "char", "bool"],
+      "answer": "float",
+      "level": 1,
+      "hint": "This type handles decimal numbers."
+    },
+    {
+      "question": "What does the 'break' keyword do?",
+      "options": ["Exits loop", "Skips iteration", "Returns value", "Throws error"],
+      "answer": "Exits loop",
+      "level": 2,
+      "hint": "This keyword stops a loop entirely."
+    },
+    {
+      "question": "Which operator dereferences a pointer?",
+      "options": ["*", "&", "->", "."],
+      "answer": "*",
+      "level": 2,
+      "hint": "This operator accesses the value at a pointer’s address."
+    },
+    {
+      "question": "What is the output of sizeof(int)?",
+      "options": ["4", "2", "8", "Depends on system"],
+      "answer": "Depends on system",
+      "level": 2,
+      "hint": "This operator returns the size of a type in bytes."
+    },
+    {
+      "question": "Which keyword defines a function?",
+      "options": ["void", "function", "def", "<No keyword>"],
+      "answer": "<No keyword>",
+      "level": 2,
+      "hint": "Functions are defined by their return type and name."
+    },
+    {
+      "question": "What does the 'this' keyword refer to?",
+      "options": ["Current object", "Parent class", "Method", "Variable"],
+      "answer": "Current object",
+      "level": 2,
+      "hint": "This pointer refers to the current instance in a class."
+    },
+    {
+      "question": "Which header defines vector?",
+      "options": ["<vector>", "<array>", "<list>", "<container>"],
+      "answer": "<vector>",
+      "level": 3,
+      "hint": "This header provides a dynamic array class."
+    },
+    {
+      "question": "What does the 'virtual' keyword do?",
+      "options": ["Enables polymorphism", "Static method", "Constant value", "Private access"],
+      "answer": "Enables polymorphism",
+      "level": 3,
+      "hint": "This keyword allows method overriding in subclasses."
+    },
+    {
+      "question": "Which operator gets a variable’s address?",
+      "options": ["&", "*", "->", "."],
+      "answer": "&",
+      "level": 3,
+      "hint": "This operator returns the memory address of a variable."
+    },
+    {
+      "question": "What is the output of 1 << 2?",
+      "options": ["4", "2", "8", "Error"],
+      "answer": "4",
+      "level": 3,
+      "hint": "The << operator shifts bits left, multiplying by 2 per shift."
+    },
+    {
+      "question": "Which keyword handles exceptions?",
+      "options": ["try", "catch", "throw", "<All of these>"],
+      "answer": "<All of these>",
+      "level": 3,
+      "hint": "These keywords work together for error handling."
+    },
+    {
+      "question": "What does the 'static' keyword mean?",
+      "options": ["Class-level member", "Instance member", "Private access", "Constant"],
+      "answer": "Class-level member",
+      "level": 2,
+      "hint": "This keyword makes a member belong to the class, not instances."
+    },
+    {
+      "question": "Which method gets string length?",
+      "options": ["length()", "size()", "<Both length() and size()>", "count()"],
+      "answer": "<Both length() and size()>",
+      "level": 2,
+      "hint": "These string methods return the number of characters."
+    },
+    {
+      "question": "What does the 'friend' keyword do?",
+      "options": ["Grants access", "Defines class", "Creates loop", "Throws error"],
+      "answer": "Grants access",
+      "level": 3,
+      "hint": "This keyword allows non-members to access private members."
+    },
+    {
+      "question": "Which header defines file operations?",
+      "options": ["<fstream>", "<file>", "<io>", "<stream>"],
+      "answer": "<fstream>",
+      "level": 3,
+      "hint": "This header provides classes for file input/output."
+    },
+    {
+      "question": "What is the output of 10 / 3?",
+      "options": ["3", "3.3", "3.0", "Error"],
+      "answer": "3",
+      "level": 2,
+      "hint": "Integer division in C++ discards the decimal part."
+    },
+    {
+      "question": "Which keyword defines a template?",
+      "options": ["template", "generic", "type", "class"],
+      "answer": "template",
+      "level": 3,
+      "hint": "This keyword enables generic programming."
+    },
+    {
+      "question": "What does the 'private' keyword mean?",
+      "options": ["Class-only access", "Public access", "Package access", "Subclass access"],
+      "answer": "Class-only access",
+      "level": 2,
+      "hint": "This access modifier restricts access to the defining class."
+    },
+    {
+      "question": "Which operator performs pointer member access?",
+      "options": ["->", ".", "*", "&"],
+      "answer": "->",
+      "level": 2,
+      "hint": "This operator accesses members through a pointer."
+    },
+    {
+      "question": "What is the output of 'abc'[1]?",
+      "options": ["b", "a", "c", "Error"],
+      "answer": "b",
+      "level": 2,
+      "hint": "Array indexing accesses a character in a C-style string."
+    },
+    {
+      "question": "Which keyword skips an iteration?",
+      "options": ["continue", "skip", "next", "pass"],
+      "answer": "continue",
+      "level": 1,
+      "hint": "This keyword moves to the next loop iteration."
+    },
+    {
+      "question": "What does the 'void' keyword mean?",
+      "options": ["No return value", "Empty class", "Null value", "Private method"],
+      "answer": "No return value",
+      "level": 1,
+      "hint": "This keyword indicates a function returns nothing."
+    },
+    {
+      "question": "Which type is immutable?",
+      "options": ["string", "vector", "array", "None"],
+      "answer": "None",
+      "level": 2,
+      "hint": "C++ standard types like string are mutable unless const."
+    },
+    {
+      "question": "What is the output of 3 < 5?",
+      "options": ["true", "false", "Error", "1"],
+      "answer": "true",
+      "level": 1,
+      "hint": "Comparison operators return a boolean value."
+    },
+    {
+      "question": "Which header defines math functions?",
+      "options": ["<cmath>", "<math>", "<numeric>", "<calc>"],
+      "answer": "<cmath>",
+      "level": 2,
+      "hint": "This header includes functions like sqrt() and pow()."
+    },
+    {
+      "question": "What does the 'using' keyword do?",
+      "options": ["Imports namespace", "Defines class", "Creates loop", "Throws error"],
+      "answer": "Imports namespace",
+      "level": 2,
+      "hint": "This keyword simplifies access to namespace members."
+    },
+    {
+      "question": "Which method concatenates strings?",
+      "options": ["append()", "concat()", "+", "<Both append() and +>"],
+      "answer": "<Both append() and +>",
+      "level": 2,
+      "hint": "These combine strings, one for std::string, one for operators."
+    },
+    {
+      "question": "What is the output of 5 / 2.0?",
+      "options": ["2.5", "2", "3", "Error"],
+      "answer": "2.5",
+      "level": 2,
+      "hint": "Division with a double returns a double result."
+    },
+    {
+      "question": "Which keyword defines a constant pointer?",
+      "options": ["const", "static", "volatile", "final"],
+      "answer": "const",
+      "level": 3,
+      "hint": "This keyword can make a pointer or its target constant."
+    },
+    {
+      "question": "What does the 'auto' keyword do?",
+      "options": ["Type deduction", "Static variable", "Constant value", "Private access"],
+      "answer": "Type deduction",
+      "level": 3,
+      "hint": "This keyword infers a variable’s type automatically."
+    },
+    {
+      "question": "Which header defines lists?",
+      "options": ["<list>", "<vector>", "<array>", "<container>"],
+      "answer": "<list>",
+      "level": 3,
+      "hint": "This header provides a doubly-linked list class."
+    },
+    {
+      "question": "What is the output of 2 & 3?",
+      "options": ["2", "3", "0", "Error"],
+      "answer": "2",
+      "level": 3,
+      "hint": "The & operator performs a bitwise AND."
+    },
+    {
+      "question": "Which keyword defines a reference?",
+      "options": ["&", "*", "ref", "alias"],
+      "answer": "&",
+      "level": 3,
+      "hint": "This symbol creates an alias to an existing variable."
+    },
+    {
+      "question": "What does the 'override' keyword do?",
+      "options": ["Ensures method override", "Static method", "Constant value", "Private access"],
+      "answer": "Ensures method override",
+      "level": 3,
+      "hint": "This keyword confirms a virtual function override."
+    },
+    {
+      "question": "Which method checks if a string is empty?",
+      "options": ["empty()", "isEmpty()", "length() == 0", "<Both empty() and length() == 0>"],
+      "answer": "<Both empty() and length() == 0>",
+      "level": 2,
+      "hint": "These string methods check for no characters."
+    },
+    {
+      "question": "What does the 'protected' keyword mean?",
+      "options": ["Class and subclass access", "Public access", "Private access", "Static access"],
+      "answer": "Class and subclass access",
+      "level": 2,
+      "hint": "This access modifier allows access in subclasses."
+    },
+    {
+      "question": "Which header defines maps?",
+      "options": ["<map>", "<hash>", "<dict>", "<container>"],
+      "answer": "<map>",
+      "level": 3,
+      "hint": "This header provides a key-value pair container."
+    },
+    {
+      "question": "What is the output of 'abc'.find('b')?",
+      "options": ["1", "0", "2", "Error"],
+      "answer": "1",
+      "level": 3,
+      "hint": "This string method returns the index of the first occurrence."
+    },
+    {
+      "question": "Which keyword defines a switch statement?",
+      "options": ["switch", "case", "select", "branch"],
+      "answer": "switch",
+      "level": 2,
+      "hint": "This keyword evaluates a value against multiple cases."
+    },
+    {
+      "question": "What does the 'inline' keyword do?",
+      "options": ["Suggests function inlining", "Static method", "Constant value", "Private access"],
+      "answer": "Suggests function inlining",
+      "level": 3,
+      "hint": "This keyword hints at replacing function calls with code."
+    },
+    {
+      "question": "Which method erases a string substring?",
+      "options": ["erase()", "remove()", "delete()", "clear()"],
+      "answer": "erase()",
+      "level": 3,
+      "hint": "This string method removes characters by index."
+    },
+    {
+      "question": "What is the output of 5 / 2?",
+      "options": ["2", "2.5", "3", "Error"],
+      "answer": "2",
+      "level": 2,
+      "hint": "Integer division in C++ discards the decimal part."
+    },
+    {
+      "question": "Which keyword imports a library?",
+      "options": ["#include", "import", "require", "use"],
+      "answer": "#include",
+      "level": 2,
+      "hint": "This preprocessor directive brings in headers."
+    },
+    {
+      "question": "What does the 'default' keyword do in a switch?",
+      "options": ["Handles unmatched cases", "Sets default value", "Breaks loop", "Throws error"],
+      "answer": "Handles unmatched cases",
+      "level": 2,
+      "hint": "This keyword catches cases not covered by case labels."
+    },
+    {
+      "question": "Which type handles dynamic arrays?",
+      "options": ["vector", "array", "list", "set"],
+      "answer": "vector",
+      "level": 2,
+      "hint": "This STL container grows dynamically."
+    },
+    {
+      "question": "What is the output of ++x if x is 5?",
+      "options": ["6", "5", "4", "Error"],
+      "answer": "6",
+      "level": 2,
+      "hint": "The ++ operator increments a variable by 1."
+    },
+    {
+      "question": "Which keyword defines a constant reference?",
+      "options": ["const", "static", "volatile", "final"],
+      "answer": "const",
+      "level": 3,
+      "hint": "This keyword prevents modifying a referenced variable."
+    },
+    {
+      "question": "What does the 'sizeof' operator do?",
+      "options": ["Returns type size", "Counts elements", "Checks type", "Frees memory"],
+      "answer": "Returns type size",
+      "level": 2,
+      "hint": "This operator returns the size in bytes of a type or variable."
+    },
+    {
+      "question": "Which method adds to a vector?",
+      "options": ["push_back()", "append()", "add()", "insert()"],
+      "answer": "push_back()",
+      "level": 2,
+      "hint": "This vector method adds an element to the end."
+    },
+    {
+      "question": "What is the output of 2 | 3?",
+      "options": ["3", "2", "1", "Error"],
+      "answer": "3",
+      "level": 3,
+      "hint": "The | operator performs a bitwise OR."
+    },
+    {
+      "question": "Which keyword defines a destructor?",
+      "options": ["~", "delete", "destroy", "free"],
+      "answer": "~",
+      "level": 3,
+      "hint": "This symbol precedes the class name for cleanup."
+    },
+    {
+      "question": "What does the 'explicit' keyword do?",
+      "options": ["Prevents implicit conversion", "Static method", "Constant value", "Private access"],
+      "answer": "Prevents implicit conversion",
+      "level": 3,
+      "hint": "This keyword restricts constructor conversions."
+    },
+    {
+      "question": "Which header defines sets?",
+      "options": ["<set>", "<hash>", "<map>", "<container>"],
+      "answer": "<set>",
+      "level": 3,
+      "hint": "This header provides a container for unique elements."
+    },
+    {
+      "question": "What is the output of 'abc'.substr(1, 1)?",
+      "options": ["b", "a", "ab", "Error"],
+      "answer": "b",
+      "level": 3,
+      "hint": "This string method extracts a substring by position and length."
+    },
+    {
+      "question": "Which keyword defines a pure virtual function?",
+      "options": ["= 0", "virtual", "abstract", "pure"],
+      "answer": "= 0",
+      "level": 3,
+      "hint": "This syntax makes a function abstract, requiring override."
+    }
+  ],
+  "javascript": [
+    {
+      "question": "Which keyword declares a variable?",
+      "options": ["var", "int", "define", "variable"],
+      "answer": "var",
+      "level": 1,
+      "hint": "This keyword, along with let and const, declares variables."
+    },
+    {
+      "question": "What is the output of console.log(5 + 3)?",
+      "options": ["8", "53", "15", "Error"],
+      "answer": "8",
+      "level": 1,
+      "hint": "The + operator adds numbers in JavaScript."
+    },
+    {
+      "question": "Which type is 'undefined'?",
+      "options": ["undefined", "null", "string", "number"],
+      "answer": "undefined",
+      "level": 2,
+      "hint": "This type indicates an uninitialized variable."
+    },
+    {
+      "question": "What does 'typeof' operator return?",
+      "options": ["Type of value", "Value", "Reference", "Object"],
+      "answer": "Type of value",
+      "level": 2,
+      "hint": "This operator returns a string describing a value’s type."
+    },
+    {
+      "question": "Which method adds an element to an array?",
+      "options": ["push()", "append()", "add()", "insert()"],
+      "answer": "push()",
+      "level": 3,
+      "hint": "This array method adds an element to the end."
+    },
+    {
+      "question": "Which keyword creates a function?",
+      "options": ["function", "def", "func", "method"],
+      "answer": "function",
+      "level": 1,
+      "hint": "This keyword defines a named or anonymous function."
+    },
+    {
+      "question": "What is the output of '5' + 3?",
+      "options": ["8", "53", "15", "Error"],
+      "answer": "53",
+      "level": 1,
+      "hint": "The + operator concatenates when a string is involved."
+    },
+    {
+      "question": "Which keyword checks conditions?",
+      "options": ["if", "check", "when", "test"],
+      "answer": "if",
+      "level": 1,
+      "hint": "This keyword evaluates a condition for branching."
+    },
+    {
+      "question": "What is the type of 'true'?",
+      "options": ["boolean", "int", "string", "float"],
+      "answer": "boolean",
+      "level": 1,
+      "hint": "This type represents true or false values."
+    },
+    {
+      "question": "Which operator checks equality with type?",
+      "options": ["=", "==", "===", ":="],
+      "answer": "===",
+      "level": 1,
+      "hint": "This operator checks both value and type equality."
+    },
+    {
+      "question": "What is the output of 10 % 3?",
+      "options": ["1", "3", "0", "Error"],
+      "answer": "1",
+      "level": 1,
+      "hint": "The % operator returns the remainder of division."
+    },
+    {
+      "question": "Which keyword creates a loop?",
+      "options": ["for", "loop", "do", "run"],
+      "answer": "for",
+      "level": 1,
+      "hint": "This keyword iterates over a sequence or range."
+    },
+    {
+      "question": "What does the 'let' keyword do?",
+      "options": ["Block-scoped variable", "Global variable", "Constant", "Function"],
+      "answer": "Block-scoped variable",
+      "level": 2,
+      "hint": "This keyword limits variable scope to a block."
+    },
+    {
+      "question": "What is the output of 'hello'.length?",
+      "options": ["5", "4", "6", "Error"],
+      "answer": "5",
+      "level": 2,
+      "hint": "This property counts characters in a string."
+    },
+    {
+      "question": "Which method splits a string?",
+      "options": ["split()", "divide()", "slice()", "cut()"],
+      "answer": "split()",
+      "level": 2,
+      "hint": "This method breaks a string into an array by delimiter."
+    },
+    {
+      "question": "What does the 'const' keyword do?",
+      "options": ["Constant value", "Variable", "Function", "Loop"],
+      "answer": "Constant value",
+      "level": 2,
+      "hint": "This keyword prevents reassignment of a variable."
+    },
+    {
+      "question": "What is the output of 2 + 3 * 4?",
+      "options": ["14", "20", "12", "Error"],
+      "answer": "14",
+      "level": 2,
+      "hint": "Operator precedence multiplies before adding."
+    },
+    {
+      "question": "Which method removes the last array element?",
+      "options": ["pop()", "shift()", "remove()", "delete()"],
+      "answer": "pop()",
+      "level": 2,
+      "hint": "This array method removes and returns the last element."
+    },
+    {
+      "question": "What does the 'this' keyword refer to?",
+      "options": ["Current object", "Global object", "Function", "<Depends on context>"],
+      "answer": "<Depends on context>",
+      "level": 2,
+      "hint": "This keyword’s value depends on how a function is called."
+    },
+    {
+      "question": "Which method joins array elements?",
+      "options": ["join()", "concat()", "merge()", "combine()"],
+      "answer": "join()",
+      "level": 2,
+      "hint": "This method combines array elements into a string."
+    },
+    {
+      "question": "What does the 'null' keyword represent?",
+      "options": ["No value", "Undefined", "Zero", "Empty string"],
+      "answer": "No value",
+      "level": 2,
+      "hint": "This value indicates intentional absence of an object."
+    },
+    {
+      "question": "Which method converts a string to uppercase?",
+      "options": ["toUpperCase()", "upper()", "toUpper()", "uppercase()"],
+      "answer": "toUpperCase()",
+      "level": 3,
+      "hint": "This string method changes all characters to uppercase."
+    },
+    {
+      "question": "What is the output of [1,2,3][1]?",
+      "options": ["2", "1", "3", "Error"],
+      "answer": "2",
+      "level": 3,
+      "hint": "Array indexing starts at 0, so [1] accesses the second element."
+    },
+    {
+      "question": "Which keyword defines a class?",
+      "options": ["class", "struct", "object", "type"],
+      "answer": "class",
+      "level": 3,
+      "hint": "This keyword defines a blueprint for objects."
+    },
+    {
+      "question": "What does the 'async' keyword do?",
+      "options": ["Enables asynchronous function", "Defines class", "Creates loop", "Imports module"],
+      "answer": "Enables asynchronous function",
+      "level": 3,
+      "hint": "This keyword allows a function to return a Promise."
+    },
+    {
+      "question": "Which method checks if an array includes a value?",
+      "options": ["includes()", "contains()", "has()", "find()"],
+      "answer": "includes()",
+      "level": 3,
+      "hint": "This array method returns true if a value exists."
+    },
+    {
+      "question": "What is the output of 'abc'.charAt(1)?",
+      "options": ["b", "a", "c", "Error"],
+      "answer": "b",
+      "level": 3,
+      "hint": "This string method accesses a character by index."
+    },
+    {
+      "question": "Which keyword handles exceptions?",
+      "options": ["try", "catch", "throw", "<All of these>"],
+      "answer": "<All of these>",
+      "level": 3,
+      "hint": "These keywords work together for error handling."
+    },
+    {
+      "question": "What does the 'await' keyword do?",
+      "options": ["Waits for Promise", "Creates loop", "Defines function", "Throws error"],
+      "answer": "Waits for Promise",
+      "level": 3,
+      "hint": "This keyword pauses async function execution."
+    },
+    {
+      "question": "Which method maps array elements?",
+      "options": ["map()", "forEach()", "filter()", "reduce()"],
+      "answer": "map()",
+      "level": 3,
+      "hint": "This method transforms each element into a new array."
+    },
+    {
+      "question": "What is the output of '123' - 0?",
+      "options": ["123", "0", "Error", "null"],
+      "answer": "123",
+      "level": 3,
+      "hint": "The - operator converts a string to a number."
+    },
+    {
+      "question": "Which keyword skips an iteration?",
+      "options": ["continue", "skip", "next", "pass"],
+      "answer": "continue",
+      "level": 1,
+      "hint": "This keyword moves to the next loop iteration."
+    },
+    {
+      "question": "What does the 'break' keyword do?",
+      "options": ["Exits loop", "Skips iteration", "Returns value", "Throws error"],
+      "answer": "Exits loop",
+      "level": 1,
+      "hint": "This keyword stops a loop entirely."
+    },
+    {
+      "question": "Which operator performs division?",
+      "options": ["/", "\\", "%", "*"],
+      "answer": "/",
+      "level": 1,
+      "hint": "This operator divides numbers, returning a quotient."
+    },
+    {
+      "question": "What is the output of 3 < 5?",
+      "options": ["true", "false", "Error", "null"],
+      "answer": "true",
+      "level": 1,
+      "hint": "Comparison operators return a boolean value."
+    },
+    {
+      "question": "Which method converts a string to lowercase?",
+      "options": ["toLowerCase()", "lower()", "toLower()", "lowercase()"],
+      "answer": "toLowerCase()",
+      "level": 2,
+      "hint": "This string method changes all characters to lowercase."
+    },
+    {
+      "question": "What does the 'null' value mean?",
+      "options": ["No object", "Undefined", "Zero", "Empty string"],
+      "answer": "No object",
+      "level": 2,
+      "hint": "This value indicates the absence of an object."
+    },
+    {
+      "question": "Which method removes the first array element?",
+      "options": ["shift()", "pop()", "remove()", "delete()"],
+      "answer": "shift()",
+      "level": 2,
+      "hint": "This array method removes and returns the first element."
+    },
+    {
+      "question": "What is the output of 'abc'.slice(1, 2)?",
+      "options": ["b", "a", "ab", "Error"],
+      "answer": "b",
+      "level": 2,
+      "hint": "This string method extracts characters from start to end-1."
+    },
+    {
+      "question": "Which keyword defines a constant?",
+      "options": ["const", "let", "var", "final"],
+      "answer": "const",
+      "level": 2,
+      "hint": "This keyword prevents reassignment but not mutation."
+    },
+    {
+      "question": "What does the 'new' keyword do?",
+      "options": ["Creates object", "Defines function", "Imports module", "Throws error"],
+      "answer": "Creates object",
+      "level": 2,
+      "hint": "This keyword instantiates a new object."
+    },
+    {
+      "question": "Which method checks if a string starts with a prefix?",
+      "options": ["startsWith()", "beginsWith()", "start()", "prefix()"],
+      "answer": "startsWith()",
+      "level": 3,
+      "hint": "This string method checks the beginning of a string."
+    },
+    {
+      "question": "What is the output of [1,2,3].length?",
+      "options": ["3", "2", "4", "Error"],
+      "answer": "3",
+      "level": 2,
+      "hint": "This array property returns the number of elements."
+    },
+    {
+      "question": "Which method filters array elements?",
+      "options": ["filter()", "map()", "reduce()", "forEach()"],
+      "answer": "filter()",
+      "level": 3,
+      "hint": "This method creates a new array with elements that pass a test."
+    },
+    {
+      "question": "What does the 'export' keyword do?",
+      "options": ["Exports module", "Imports module", "Defines class", "Creates loop"],
+      "answer": "Exports module",
+      "level": 3,
+      "hint": "This keyword makes code available to other modules."
+    },
+    {
+      "question": "Which method concatenates arrays?",
+      "options": ["concat()", "join()", "merge()", "append()"],
+      "answer": "concat()",
+      "level": 3,
+      "hint": "This array method combines multiple arrays."
+    },
+    {
+      "question": "What is the output of 'abc'.indexOf('b')?",
+      "options": ["1", "0", "2", "Error"],
+      "answer": "1",
+      "level": 3,
+      "hint": "This string method returns the first occurrence’s index."
+    },
+    {
+      "question": "Which keyword imports a module?",
+      "options": ["import", "require", "include", "<Both import and require>"],
+      "answer": "<Both import and require>",
+      "level": 3,
+      "hint": "These keywords bring external modules into a script."
+    },
+    {
+      "question": "What does the 'Promise' object do?",
+      "options": ["Handles async operations", "Defines class", "Creates array", "Throws error"],
+      "answer": "Handles async operations",
+      "level": 3,
+      "hint": "This object represents a future value."
+    },
+    {
+      "question": "Which method reduces an array to a single value?",
+      "options": ["reduce()", "map()", "filter()", "forEach()"],
+      "answer": "reduce()",
+      "level": 3,
+      "hint": "This method applies a function to accumulate a result."
+    },
+    {
+      "question": "What is the output of 1 << 2?",
+      "options": ["4", "2", "8", "Error"],
+      "answer": "4",
+      "level": 3,
+      "hint": "The << operator shifts bits left, multiplying by 2 per shift."
+    },
+    {
+      "question": "Which keyword defines a block scope?",
+      "options": ["let", "var", "const", "<Both let and const>"],
+      "answer": "<Both let and const>",
+      "level": 2,
+      "hint": "These keywords limit variable scope to a block."
+    },
+    {
+      "question": "What does the 'typeof' operator do?",
+      "options": ["Returns type", "Checks equality", "Creates object", "Throws error"],
+      "answer": "Returns type",
+      "level": 2,
+      "hint": "This operator identifies a value’s data type."
+    },
+    {
+      "question": "Which method checks if a string ends with a suffix?",
+      "options": ["endsWith()", "last()", "suffix()", "end()"],
+      "answer": "endsWith()",
+      "level": 3,
+      "hint": "This string method checks the end of a string."
+    },
+    {
+      "question": "What is the output of 'abc'.replace('b', 'd')?",
+      "options": ["adc", "abc", "bcd", "Error"],
+      "answer": "adc",
+      "level": 3,
+      "hint": "This string method replaces the first occurrence."
+    },
+    {
+      "question": "Which keyword defines a generator function?",
+      "options": ["function*", "generator", "yield", "async"],
+      "answer": "function*",
+      "level": 3,
+      "hint": "This keyword creates a function that yields values."
+    },
+    {
+      "question": "What does the 'delete' operator do?",
+      "options": ["Removes object property", "Frees memory", "Breaks loop", "Throws error"],
+      "answer": "Removes object property",
+      "level": 3,
+      "hint": "This operator removes a key from an object."
+    },
+    {
+      "question": "Which method reverses an array?",
+      "options": ["reverse()", "flip()", "invert()", "back()"],
+      "answer": "reverse()",
+      "level": 2,
+      "hint": "This array method reverses elements in place."
+    },
+    {
+      "question": "What is the output of 2 && 3?",
+      "options": ["3", "2", "true", "Error"],
+      "answer": "3",
+      "level": 3,
+      "hint": "The && operator returns the last truthy value."
+    },
+    {
+      "question": "Which method sorts an array?",
+      "options": ["sort()", "order()", "arrange()", "align()"],
+      "answer": "sort()",
+      "level": 2,
+      "hint": "This array method reorders elements in place."
+    },
+    {
+      "question": "What does the 'in' operator do?",
+      "options": ["Checks property existence", "Checks type", "Compares values", "Creates loop"],
+      "answer": "Checks property existence",
+      "level": 3,
+      "hint": "This operator checks if a key exists in an object."
+    },
+    {
+      "question": "Which method trims whitespace?",
+      "options": ["trim()", "strip()", "clean()", "<Both trim() and strip()>"],
+      "answer": "trim()",
+      "level": 3,
+      "hint": "This string method removes leading and trailing spaces."
+    },
+    {
+      "question": "What is the output of [1,2,3].slice(1, 2)?",
+      "options": ["[2]", "[1,2]", "[2,3]", "Error"],
+      "answer": "[2]",
+      "level": 3,
+      "hint": "This array method extracts elements from start to end-1."
+    },
+    {
+      "question": "Which keyword defines a switch statement?",
+      "options": ["switch", "case", "select", "branch"],
+      "answer": "switch",
+      "level": 2,
+      "hint": "This keyword evaluates a value against multiple cases."
+    },
+    {
+      "question": "What does the 'default' keyword do in a switch?",
+      "options": ["Handles unmatched cases", "Sets default value", "Breaks loop", "Throws error"],
+      "answer": "Handles unmatched cases",
+      "level": 2,
+      "hint": "This keyword catches cases not covered by case labels."
+    },
+    {
+      "question": "Which method checks if a value is an array?",
+      "options": ["Array.isArray()", "isArray()", "typeof", "instanceof"],
+      "answer": "Array.isArray()",
+      "level": 3,
+      "hint": "This method specifically checks for arrays."
+    },
+    {
+      "question": "What is the output of 5 / 2?",
+      "options": ["2.5", "2", "3", "Error"],
+      "answer": "2.5",
+      "level": 2,
+      "hint": "Division in JavaScript returns a floating-point number."
+    },
+    {
+      "question": "Which method adds elements to the start of an array?",
+      "options": ["unshift()", "shift()", "push()", "prepend()"],
+      "answer": "unshift()",
+      "level": 3,
+      "hint": "This array method adds elements to the beginning."
+    },
+    {
+      "question": "What does the 'instanceof' operator check?",
+      "options": ["Type", "Value", "Equality", "Reference"],
+      "answer": "Type",
+      "level": 3,
+      "hint": "This operator checks if an object is an instance of a class."
+    },
+    {
+      "question": "Which method converts an array to a string?",
+      "options": ["toString()", "string()", "convert()", "join()"],
+      "answer": "toString()",
+      "level": 2,
+      "hint": "This array method creates a comma-separated string."
+    },
+    {
+      "question": "What is the output of '123'.toString()?",
+      "options": ["'123'", "123", "Error", "null"],
+      "answer": "'123'",
+      "level": 2,
+      "hint": "This method ensures a value is a string."
+    },
+    {
+      "question": "Which keyword defines an arrow function?",
+      "options": ["=>", "->", "function", "lambda"],
+      "answer": "=>",
+      "level": 3,
+      "hint": "This syntax creates a concise function expression."
+    },
+    {
+      "question": "What does the 'spread' operator do?",
+      "options": ["Expands arrays/objects", "Merges strings", "Defines class", "Throws error"],
+      "answer": "Expands arrays/objects",
+      "level": 3,
+      "hint": "This operator (...) unpacks elements or properties."
+    },
+    {
+      "question": "Which method finds an array element?",
+      "options": ["find()", "search()", "get()", "indexOf()"],
+      "answer": "find()",
+      "level": 3,
+      "hint": "This method returns the first element that passes a test."
+    }
+  ]
+}
